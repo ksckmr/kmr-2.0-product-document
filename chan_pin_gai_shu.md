@@ -18,3 +18,5 @@
   
 　　
   除Hadoop以外，KMR还集成了Spark、hive、pig等多种生态组件，可以通过控制台或者API来执行MapReduce, Spark, Hive, Pig等多种计算作业。
+  
+  http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ClusterVSjobflow.jpg
