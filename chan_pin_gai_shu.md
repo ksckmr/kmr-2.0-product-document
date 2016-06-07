@@ -16,7 +16,13 @@
 
 　　KMR提供了多种节点配置（请参考[KMR产品定价与选购](chan_pin_ding_jia_yu_xuan_gou.md)），您可根据自身需求选取，并在需要时动态的增加或者减少节点数量。
   
-　　
+　针对不同的数据处理场景KMR提供了2种不同的**集群类型：**　
+ 
+
+  
+  * **常驻集群：**主要用于
+  * **临时集群：**主要用于
+  
   除Hadoop以外，KMR还集成了Spark、hive、pig等多种生态组件，可以通过控制台或者API来执行MapReduce, Spark, Hive, Pig等多种计算作业。
   
   ![集群类型](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ClusterVSjobflow.jpg)
