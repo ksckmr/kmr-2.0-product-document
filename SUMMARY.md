@@ -10,7 +10,7 @@
 * [使用手册](shi_yong_shou_ce.md)
    * [数据导入指南](shu_ju_dao_ru_zhi_nan.md)
    * [临时集群操作指南](ji_qun_cao_zuo_zhi_nan.md)
-   * 常驻集群操作指南
+   * [常驻集群操作指南](chang_zhu_ji_qun_cao_zuo_zhi_nan.md)
    * [创建集群－快速选项](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)
    * [创建集群－高级选项](chuang_jian_ji_qun_gao_ji_xuan_xiang.md)
    * [作业创建指南](zuo_ye_chuang_jian_zhi_nan.md)
