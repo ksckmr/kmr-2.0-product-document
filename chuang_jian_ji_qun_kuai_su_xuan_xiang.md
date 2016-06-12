@@ -4,21 +4,26 @@
 　　KMR的某些功能依赖于KS3，在创建集群之前，请确认您已经开通KMR和KS3服务，并已经创建AccessKey/SecretKey 参阅KS3官方文档 [创建密钥](http://www.ksyun.com/doc/art/id/612)
 
 　　如需使用KS3存放原始数据，参阅 [数据导入](shu_ju_dao_ru_zhi_nan.md)
+  
+
+###   创建步骤
+
+
 
 　　1.登录金山云控制台，选择数据分析->托管Hadoop
 
 　　2.选择“集群管理”,点击“新建集群”按钮，进入集群创建向导
 
-　　3.按照以下步骤完成集群创建操作
-
+　　3.填写以下内容完成集群创建操作
   
-   　　[1. 集群基本信息](#ji_qun_ji_ben_xin_xi)
+   　　[基本信息](#ji_qun_ji_ben_xin_xi)
 
-   　　[2. 安全与访问](#an_quan_yu_fang_wen)
+   　　[软件与节点配置](#an_quan_yu_fang_wen)
 
-   　　[3. 添加作业](#tian_jia_zuo_ye)
+   　　[网络设置与其他](#tian_jia_zuo_ye)
 
-   　　[4. 确认订单](#que_ren_ding_dan)
+   　　[引导与作业设置](#que_ren_ding_dan)
+     
   
   <h3 name="ji_qun_ji_ben_xin_xi" id="ji_qun_ji_ben_xin_xi">1.集群基本信息</h3>
   
