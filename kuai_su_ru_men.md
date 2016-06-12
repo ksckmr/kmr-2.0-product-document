@@ -4,7 +4,7 @@
   
 　　1.登录金山云控制台，选择数据分析->托管Hadoop
 
-　　![快速体验1](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm1.png)
+　　![快速体验1](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/1.5-1-login.jpg)
 
 　　2.选择“集群管理”,点击“新建集群”按钮，默认进入集群快速创建向导
 
