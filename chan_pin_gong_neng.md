@@ -44,10 +44,10 @@
   
   ![日志归集](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/rzgj.png)
   
-　　**计算作业管理**
+
+### 　　计算作业管理
   
 　　KMR可以支持MapReduce, Spark, Pig, Hive等多种计算作业，这些作业可以在集群创建时或者创建完成后添加到集群中，您可以很方便的管理每个集群中的作业，随时查看作业的状态。
-  
 
 ### 　　集群自动释放
   
