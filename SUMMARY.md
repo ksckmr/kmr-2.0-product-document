@@ -10,6 +10,7 @@
 * [使用手册](shi_yong_shou_ce.md)
    * [数据导入指南](shu_ju_dao_ru_zhi_nan.md)
    * [临时集群操作指南](ji_qun_cao_zuo_zhi_nan.md)
+   * 常驻集群操作指南
    * [创建集群－快速选项](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)
    * [创建集群－高级选项](chuang_jian_ji_qun_gao_ji_xuan_xiang.md)
    * [作业创建指南](zuo_ye_chuang_jian_zhi_nan.md)
@@ -21,7 +22,6 @@
    * [产品术语表](chan_pin_zhu_yu_biao.md)
    * [KMR日志归集路径](kmrri_zhi_gui_ji_lu_jing.md)
    * [服务和管理端口列表](fu_wu_he_guan_li_duan_kou_lie_biao.md)
-   * 常驻集群操作指南
 * [购买指南](gou_mai_zhi_nan.md)
    * [产品定价与选购](chan_pin_ding_jia_yu_xuan_gou.md)
    * [FAQ](faq.md)
