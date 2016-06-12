@@ -12,7 +12,7 @@
 ### 　　数据查询和报表
 
   
-　　即席查询是指用户在使用系统时，可以根据自己当时的需求定义的查询。KMR提供了Hive和SparkSQL等类SQL查询方案，您可使用简单直观的查询方法对海量的数据进行探索和分析。
+　　KMR提供了Hive和SparkSQL等类SQL查询方案，用户可使用简单直观的查询方法对海量的数据进行分析或者使用主流的BI工具生成报表。
   
   ![既席数据分析](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/1.4SQL.jpg)
   
