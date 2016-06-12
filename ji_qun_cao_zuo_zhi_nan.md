@@ -10,9 +10,13 @@
 
 * [作业详情](#zuo_ye_xiang_qing)
 
-## 创建集群－高级选项
+
 
   <h3 name="create_cluster" id="create_cluster">1.创建集群</h3>
+  
+---
+
+
 
 　　高级选项提供了更多的集群配置参数，如果您是初次使用KMR，建议切换到“创建集群-快速选项”
   
