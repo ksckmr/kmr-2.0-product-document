@@ -26,7 +26,7 @@
 
    　　[引导与作业设置（仅临时集群）](#que_ren_ding_dan)
      
-  
+　　  
   <h3 name="ji_qun_ji_ben_xin_xi" id="ji_qun_ji_ben_xin_xi">基本信息</h3>
   
 
@@ -42,8 +42,14 @@
 | **集群名称** | 创建集群时，会根据系统时间戳生成一个默认名称。您也可以为KMR集群输入描述性名称。长度限制为1-25个字符,支持数字、字母、特殊符号（_和-）该名称不必是唯一的。 |
 | **数据中心** | 选择KMR集群所在数据中心。（如果需要使用KS3存储数据，应确保KMR与KS3 bucket 处于同一区域） |
 | **计费方式** | **KMR计费方式根据不同的集群类型有所区别：**常驻集群可选择按需计费和包年包月两种计费方式；临时集群仅可选择按需计费方式。详见 [KMR产品定价与选购](chan_pin_ding_jia_yu_xuan_gou.md) |
+　　
 
-　　2.配置集群节点
+  <h3 name="Software_And_Node" id="Software_And_Node">软件与节点配置</h3>
+  
+  
+---
+
+
 
 ![基本信息2](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jbxx2.png)
 
