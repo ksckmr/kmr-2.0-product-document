@@ -14,7 +14,7 @@
 
 　　2.选择“集群管理”,点击“新建集群”按钮，进入集群创建向导
 
-　　3.填写以下内容完成集群创建操作
+　　3.填写以下内容完成集群创建：
   
    　　[基本信息](#ji_qun_ji_ben_xin_xi)
 
@@ -25,7 +25,7 @@
    　　[引导与作业设置](#que_ren_ding_dan)
      
   
-  <h3 name="ji_qun_ji_ben_xin_xi" id="ji_qun_ji_ben_xin_xi">1.集群基本信息</h3>
+  <h3 name="ji_qun_ji_ben_xin_xi" id="ji_qun_ji_ben_xin_xi">基本信息</h3>
   
 
 ---
