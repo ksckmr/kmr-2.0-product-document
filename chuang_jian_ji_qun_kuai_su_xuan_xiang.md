@@ -33,9 +33,8 @@
 ---
 
 
-　　1.填写集群的基本信息
 
-![基本信息1](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jbxx1.png)
+![](1.jpg)
 
 | 字段 | 操作 |
 | -- | -- |
