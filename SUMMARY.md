@@ -13,7 +13,7 @@
    * [集群操作指南](ji_qun_cao_zuo_zhi_nan.md)
    * [作业创建指南](zuo_ye_chuang_jian_zhi_nan.md)
    * [集群模板管理](ji_qun_mu_ban_guan_li_zhi_nan.md)
-   * [执行计划指南](zhi_xing_ji_hua_zhi_nan.md)
+   * [执行计划管理](zhi_xing_ji_hua_zhi_nan.md)
    * [密钥管理指南](mi_yao_guan_li_zhi_nan.md)
    * [SSH连接指南](sshlian_jie_zhi_nan.md)
    * [监控指南](jian_kong_zhi_nan.md)
