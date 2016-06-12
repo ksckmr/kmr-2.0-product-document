@@ -17,5 +17,5 @@
   
 　　流式数据处理逐渐成为大数据的热点，例如网站流量统计和游戏在线玩家数据，需要在不同粒度上对不同数据进行统计，既有实时性的需求，又需要涉及到聚合、去重、连接等较为复杂的统计需求，KMR提供了流式数据处理框架Spark Streaming，帮助您轻松应对实时的数据处理需求。
   
-![流式数据处理](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/lssjcl.png)
+![流式数据处理](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/1.4Stream.jpg)
 
