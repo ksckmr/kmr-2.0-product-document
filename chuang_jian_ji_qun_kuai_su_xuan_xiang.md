@@ -6,7 +6,7 @@
   
 　　KMR的某些功能依赖于KS3，在创建集群之前，请确认您已经开通KMR和KS3服务，并已经创建AccessKey/SecretKey 参阅KS3官方文档 [创建密钥](http://www.ksyun.com/doc/art/id/612)
 
-　　如需使用KS3存放原始数据，参阅 [数据导入到KS3](shu_ju_dao_ru_zhi_nan.md)。
+　　如需使用KS3存放原始数据，参阅 [数据导入](shu_ju_dao_ru_zhi_nan.md)
 
 　　打开金山云控制台，选择KMR服务，点击“新建集群”，选择页面上方的“切换到高级选项”，进入集群配置页面
   
