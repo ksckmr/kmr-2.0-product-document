@@ -20,7 +20,7 @@
   
    　　[基本信息](#ji_qun_ji_ben_xin_xi)
 
-   　　[软件与节点配置](#an_quan_yu_fang_wen)
+   　　[软件与节点配置](#Software_And_Node)
 
    　　[网络设置与其他](#tian_jia_zuo_ye)
 
