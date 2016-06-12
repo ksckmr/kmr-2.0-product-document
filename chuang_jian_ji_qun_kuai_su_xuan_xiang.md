@@ -1,7 +1,7 @@
 ## 集群创建
 
 
-　　KMR的某些功能依赖于KS3，在创建集群之前，请确认您已经开通KMR和KS3服务，并已经创建AccessKey/SecretKey 参阅KS3官方文档 [创建密钥](http://www.ksyun.com/doc/art/id/612)
+　　KMR的某些功能依赖于KS3，在创建集群之前，请确认您已经开通KMR和KS3服务，并已经创建AccessKey/SecretKey ，参阅KS3官方文档 [创建密钥](http://www.ksyun.com/doc/art/id/612)
 
 　　如需使用KS3存放原始数据，参阅 [数据导入](shu_ju_dao_ru_zhi_nan.md)
   
