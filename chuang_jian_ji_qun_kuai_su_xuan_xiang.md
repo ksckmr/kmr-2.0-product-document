@@ -1,9 +1,6 @@
 ## 集群创建
 
 
-　　
-　　高级选项提供了更多的集群配置参数，如果您是初次使用KMR，建议切换到“创建集群-快速选项”
-  
 　　KMR的某些功能依赖于KS3，在创建集群之前，请确认您已经开通KMR和KS3服务，并已经创建AccessKey/SecretKey 参阅KS3官方文档 [创建密钥](http://www.ksyun.com/doc/art/id/612)
 
 　　如需使用KS3存放原始数据，参阅 [数据导入](shu_ju_dao_ru_zhi_nan.md)
