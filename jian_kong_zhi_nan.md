@@ -15,7 +15,7 @@
 
   [2. 常驻集群监控告警](#durable_cluster)
 
-  [3. Hadoop原生管理工具](#hive)
+  [3. Hadoop原生管理工具](#hadoop_tools)
   
   
 <h3 name="temp_cluster" id="temp_cluster">临时集群监控</h3>
@@ -44,7 +44,15 @@ KMR临时中集成了Ganglia监控工具，用户可以通过控制台“集群�
 ---
 
 
-　　**2.Hadoop服务状态查看**
+
+
+  
+  
+<h3 name="hadoop_tools" id="hadoop_tools">Hadoop原生管理工具</h3>
+  
+
+---
+
 
 　　安装在 KMR集群上的 Hadoop 和其他应用程序会将用户界面发布在主节点上托管的网站，这些页面记录了各类集群服务的统计和监控信息，你可以直接通过“集群详情”-“管理工具”进入各个页面查看。
 
