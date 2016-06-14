@@ -75,7 +75,7 @@
 　　
   
   
-   <h3 name="zuo_ye_xiang_qing" id="zuo_ye_xiang_qing">作业详情</h3>
+   <h3 name="zuo_ye_xiang_qing" id="zuo_ye_xiang_qing">作业详情（仅临时集群）</h3>
   
 ---
 
