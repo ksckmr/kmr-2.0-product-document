@@ -239,14 +239,14 @@ Content-Length: xxx
   
 　　**Distribution**
   
-　　　　Hadoop发行版本说明。支持“kmr 1.0.0”与“kmr 2.0.0”。　<br>
+　　　　Hadoop发行版本说明。支持“kmr-1.0.0”与“kmr-2.0.0”。　<br>
 　　　　类型：String<br>
-　　　　默认：“kmr 1.0.0”<br>
+　　　　默认：“kmr-2.0.0”<br>
 　　　　是否必须：否
     
 　　**Applications.member.N**
   
-　　　　安装应用列表。可选值为“hadoop”，“hive”，“pig”，“spark”，“storm”， “kafka”等，区分大小写。如果不填则默认为“hadoop”。<br>
+　　　　安装应用列表。可选值为“hadoop”，“hive”，“hbase”，“spark”，“storm”，“kafka”等，区分大小写。如果不填则默认为“hadoop”。<br>
 　　　　类型：String列表<br>
 　　　　是否必须：否
     
