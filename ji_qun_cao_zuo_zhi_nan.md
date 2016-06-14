@@ -1,14 +1,11 @@
 # 集群操作
 
 
-  
-* [创建集群-快速选项](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)
-
 * [查看集群列表](#cha_kan_ji_qun_lie_biao)
  
 * [集群详情](#ji_qun_xiang_qing)
 
-* [作业详情](#zuo_ye_xiang_qing)
+* [作业详情（仅临时集群）](#zuo_ye_xiang_qing)
 
 
 
