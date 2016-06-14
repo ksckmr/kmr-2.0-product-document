@@ -15,7 +15,7 @@
 
   [2. 常驻集群监控告警](#durable_cluster)
 
-  [3. Hadoop原生管理工具](#hive)
+  [3. Hadoop原生管理工具](#hadoop_tools)
   
   
 <h3 name="temp_cluster" id="temp_cluster">临时集群监控</h3>
@@ -24,7 +24,7 @@
 ---
 
 
-KMR临时中集成了Ganglia监控工具，用户可以通过控制台“集群详情”-“管理工具”-“Ganglia”进入
+KMR临时集群中集成了Ganglia监控工具，用户可以通过控制台“集群详情”-“管理工具”-“Ganglia”进入
 
 　**　使用Ganglia监控集群状态**
 
@@ -42,9 +42,33 @@ KMR临时中集成了Ganglia监控工具，用户可以通过控制台“集群�
   
 
 ---
+KMR常驻集群中集成了Ambari管理工具，Apache Ambari是一种基于Web的工具，支持Apache Hadoop集群的供应、管理和监控。
+
+请参考：[Ambari官方文档](http://docs.hortonworks.com/HDPDocuments/Ambari/Ambari-2.2.2.0/index.html)
+
+您可以通过控制台“集群详情”-“管理工具”-“ambari”进入
+
+用户名：guest
+
+密码：guest
+
+注意：对于ambari的操作可能会影响集群稳定性，我们仅开放了只读权限，您可以查看集群的监控和配置信息
+
+Ganglia是UC Berkeley发起的一个开源集群监视项目，设计用于测量数以千计的集群节点，主要用来监控系统性能，如：CPU 、内存和硬盘利用率， I/O负载、网络流量情况等，通过曲线很直观的了解到每个节点的工作状态，对合理调整、分配系统资源，提高系统整体性能起到重要作用。
 
 
-　　**2.Hadoop服务状态查看**
+　　Ambari服务页面如下图所示：
+
+
+
+
+  
+  
+<h3 name="hadoop_tools" id="hadoop_tools">Hadoop原生管理工具</h3>
+  
+
+---
+
 
 　　安装在 KMR集群上的 Hadoop 和其他应用程序会将用户界面发布在主节点上托管的网站，这些页面记录了各类集群服务的统计和监控信息，你可以直接通过“集群详情”-“管理工具”进入各个页面查看。
 
