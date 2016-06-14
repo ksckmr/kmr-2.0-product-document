@@ -273,7 +273,7 @@ Content-Length: xxx
 　　　　默认："Minutely"      
 　　　　是否必须：否
    
-　　**ExpireTime**
+　　**PurchaseTime**
   
 　　　　集群到期时间（ISO 8061时间格式）。“包年包月”必须要选择到期时间，其余计费类无需此项内容（即使选择也会被系统忽略）。<br>
 　　　　类型：String<br>
