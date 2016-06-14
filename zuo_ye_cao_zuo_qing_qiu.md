@@ -248,7 +248,7 @@ Content-Length: 2
 
 * **功能描述**
 
-　　向指定集群批量添加作业。您需要指定集群ID以及相应的作业参数。支持MapReduce、MapReduce.Streming、Pig、Hive、Spark 共5种类型作业。
+　　向指定集群批量添加作业。您需要指定集群ID以及相应的作业参数。支持MapReduce、MapReduce.Streming、Pig、Hive、Spark 共5种类型作业。（常驻集群暂不支持）
  
 * **请求参数**
 
