@@ -275,8 +275,8 @@ Content-Length: xxx
    
 　　**PurchaseTime**
   
-　　　　集群到期时间（ISO 8061时间格式）。“包年包月”必须要选择到期时间，其余计费类无需此项内容（即使选择也会被系统忽略）。<br>
-　　　　类型：String<br>
+　　　　集群购买时长，单位月。“包年包月”必须要选择，其余计费类无需此项内容（即使选择也会被系统忽略）。<br>
+　　　　类型：Integer<br>
 　　　　是否必须：否   
    
 　　**TerminationProtected**
