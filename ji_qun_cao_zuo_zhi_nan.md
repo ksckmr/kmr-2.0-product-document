@@ -11,7 +11,7 @@
 
 
 
-  <h3 name="create_cluster" id="create_cluster">查看集群列表</h3>
+  <h3 name="cha_kan_ji_qun_lie_biao" id="cha_kan_ji_qun_lie_biao">查看集群列表</h3>
   
 ---
 
@@ -36,7 +36,7 @@
   
   
 
-  <h3 name="ji_qun_ji_ben_xin_xi" id="ji_qun_ji_ben_xin_xi">集群详情</h3>
+  <h3 name="ji_qun_xiang_qing" id="ji_qun_xiang_qing">集群详情</h3>
   
 ---
 
