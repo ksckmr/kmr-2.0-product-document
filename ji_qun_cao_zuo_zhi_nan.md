@@ -68,6 +68,7 @@
   
 　　**管理工具：**Hadoop和Spark等应用具有丰富的原生管理工具，点击各个工具链接，能够直接进入管理界面，进行相关管理和查询。用户通过此接口进入管理工具界面，无需使用SSH Tunnel方式进入。管理工具包括Ambari控制台、Ganglia集群监控工具、YARN管理工具、HDFS管理工具、Oozie管理工具、YARN History Server和Spark History Server，其中监控临时集群运行状态使用Ganglia工具，监控常驻集群试用Ambari工具，详情请参考[监控指南](jian_kong_zhi_nan.md)
 
+
   
   
    <h3 name="zuo_ye_xiang_qing" id="zuo_ye_xiang_qing">作业详情（仅临时集群）</h3>
