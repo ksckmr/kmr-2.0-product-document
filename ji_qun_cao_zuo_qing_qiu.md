@@ -279,6 +279,14 @@ Content-Length: xxx
 　　　　类型：Integer<br>
 　　　　是否必须：否   
    
+　　**MetaDatabaseUri**
+  
+　　　　元数据管理的数据库信息。<br>
+　　　　元数据主要指集群监控元数据，Hive的元数据管理等。当用户选择集群外的RDS或者自建MySql来管理元数据时需要填写。<br>
+　　　　类型：String <br>
+　　　　格式：mysql://{username}:{password}@{hostname}:{port} <br> 
+　　　　是否必须：否   
+   
 　　**TerminationProtected**
   
 　　　　集群是否启用释放保护锁。<br>
