@@ -17,24 +17,11 @@
 
 
 
-　　高级选项提供了更多的集群配置参数，如果您是初次使用KMR，建议切换到“创建集群-快速选项”
+　　集群创建完成后可以在集群列表中查看集群的基本信息，并对集群进行简单操作，集群列表会根据创建时间来排序
   
-　　KMR的某些功能依赖于KS3，在创建集群之前，请确认您已经开通KMR和KS3服务，并已经创建AccessKey/SecretKey 参阅KS3官方文档 [创建密钥](http://www.ksyun.com/doc/art/id/612)
-
-　　如需使用KS3存放原始数据，参阅 [数据导入到KS3](shu_ju_dao_ru_zhi_nan.md)。
-
-　　打开金山云控制台，选择KMR服务，点击“新建集群”，选择页面上方的“切换到高级选项”，进入集群配置页面
+  ![](jqlb.png)
   
-　　顺序完成以下步骤：
-  
-   　　[1. 集群基本信息](#ji_qun_ji_ben_xin_xi)
 
-   　　[2. 安全与访问](#an_quan_yu_fang_wen)
-
-   　　[3. 添加作业](#tian_jia_zuo_ye)
-
-   　　[4. 确认订单](#que_ren_ding_dan)
-  
   <h3 name="ji_qun_ji_ben_xin_xi" id="ji_qun_ji_ben_xin_xi">1.集群基本信息</h3>
   
 
