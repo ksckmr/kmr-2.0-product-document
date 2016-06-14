@@ -24,7 +24,7 @@
 
    　　[网络设置与其他](#wang_luo_she_zhi)
 
-   　　[引导与作业设置（仅临时集群）](#que_ren_ding_dan)
+   　　[引导与作业设置（仅临时集群）](#zuo_ye_she_zhi)
      
 　　  
   <h3 name="ji_qun_ji_ben_xin_xi" id="ji_qun_ji_ben_xin_xi">基本信息</h3>
@@ -96,7 +96,7 @@
 
 **日志路径（仅临时集群）** ：您可以键入或浏览用于存储 KMR 日志的KS3 存储桶（bucket），例如 ks3://myemrbucket/logs，也可以让KMR为您生成一个KS3 路径。如果键入的文件夹名称在存储桶中不存在，系统将为您创建该文件夹。<br>各种集群服务和作业的日志在KS3上对应的路径结构，请参考 [KMR日志归集路径](kmrri_zhi_gui_ji_lu_jing.md) 
 
-  <h3 name="Software_And_Node" id="Software_And_Node">引导与作业设置（仅临时集群）</h3>
+  <h3 name="zuo_ye_she_zhi" id="zuo_ye_she_zhi">引导与作业设置（仅临时集群）</h3>
   
 ---
 
