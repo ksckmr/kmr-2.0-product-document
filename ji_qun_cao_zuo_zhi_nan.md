@@ -37,8 +37,6 @@
   
 
   <h3 name="ji_qun_ji_ben_xin_xi" id="ji_qun_ji_ben_xin_xi">集群详情</h3>
-  
-
 ---
 
 
