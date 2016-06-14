@@ -235,7 +235,7 @@ Content-Length: xxx
 
 　　关于所有操作使用的通用参数信息，请参考[通用请求](tong_yong_qing_qiu.md) "公共参数"部分
   
-　　**DistributionVersion**
+　　**Distribution**
   
 　　　　Hadoop发行版本说明。当前仅支持“hadoop 2.6.0”，如果不填则默认试用“hadoop 2.6.0”。　<br>
 　　　　类型：String<br>
