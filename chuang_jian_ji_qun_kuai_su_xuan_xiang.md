@@ -22,7 +22,7 @@
 
    　　[软件与节点配置](#Software_And_Node)
 
-   　　[网络设置与其他](#tian_jia_zuo_ye)
+   　　[网络设置与其他](#wang_luo_she_zhi)
 
    　　[引导与作业设置（仅临时集群）](#que_ren_ding_dan)
      
@@ -72,7 +72,7 @@
 
 　　
 
-  <h3 name="Software_And_Node" id="Software_And_Node">网络设置与其他</h3>
+  <h3 name="wang_luo_she_zhi" id="wang_luo_she_zhi">网络设置与其他</h3>
   
 ---
 
