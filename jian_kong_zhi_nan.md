@@ -42,7 +42,11 @@ KMR临时集群中集成了Ganglia监控工具，用户可以通过控制台“�
   
 
 ---
-KMR常驻集群中集成了Ambari管理工具，用户可以通过控制台“集群详情”-“管理工具”-“ambari”进入
+KMR常驻集群中集成了Ambari管理工具，Apache Ambari是一种基于Web的工具，支持Apache Hadoop集群的供应、管理和监控。
+
+请参考：[Ambari官方文档](http://docs.hortonworks.com/HDPDocuments/Ambari/Ambari-2.2.2.0/index.html)
+
+您可以通过控制台“集群详情”-“管理工具”-“ambari”进入
 
 用户名：guest
 
@@ -52,7 +56,6 @@ KMR常驻集群中集成了Ambari管理工具，用户可以通过控制台“�
 
 Ganglia是UC Berkeley发起的一个开源集群监视项目，设计用于测量数以千计的集群节点，主要用来监控系统性能，如：CPU 、内存和硬盘利用率， I/O负载、网络流量情况等，通过曲线很直观的了解到每个节点的工作状态，对合理调整、分配系统资源，提高系统整体性能起到重要作用。
 
-　　在KMR中，我们为您在集群中集成了Ganglia服务，您可通过“集群详情”-“管理工具”-“Ganglia”直接进入
 
 　　Ambari服务页面如下图所示：
 
