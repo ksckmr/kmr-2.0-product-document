@@ -326,7 +326,7 @@ Content-Length: xxx
     
 　　**Steps.member.N**
   
-　　　　自定义需要运行的作业列表。<br>
+　　　　自定义需要运行的作业列表。(常驻集群暂不支持)<br>
 　　　　类型：StepConfig列表 [StepConfig](shu_ju_lei_xing.md#StepConfig)<br>
 　　　　是否必须：否
     
@@ -344,7 +344,7 @@ Content-Length: xxx
     
 　　**BootstrapActions.member.N**
   
-　　　　集群引导操作列表<br>
+　　　　集群引导操作列表(常驻集群暂不支持)<br>
 　　　　类型：BootstrapAction列表 [BootstrapAction](shu_ju_lei_xing.md#BootstrapAction)<br>
 　　　　是否必须：否
     　　
