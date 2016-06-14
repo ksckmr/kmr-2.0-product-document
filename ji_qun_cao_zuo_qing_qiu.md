@@ -18,11 +18,13 @@
 
 [**9. ListInstances**](#ListInstances)
 
+[**10. ListDistributions**](#ListDistributions)
+
+
 <h3 name="ListClusters" id="ListClusters">1.ListClusters</h3>
 
 
 ---
-
 
 
 * **功能描述**
@@ -65,7 +67,7 @@
 　　**Clusters**
   
 　　　　当前账户满足请求中给出的过滤条件的集群列表<br>
-　　　　类型：ClusterSummary列表 (ClusterSummary)
+　　　　类型：ClusterSummary列表 [ClusterSummary](shu_ju_lei_xing.md#ClusterSummary)
     
 　　**Marker**
   
@@ -160,7 +162,7 @@ Content-Length: xxx
 　　**Cluster**
   
 　　　　请求中集群的详细信息<br>
-　　　　类型：ClusterConfig  （ClusterConfig） 
+　　　　类型：ClusterConfig  [ClusterConfig](shu_ju_lei_xing.md#ClusterConfig) 
 
 * **错误信息**
 
@@ -235,34 +237,61 @@ Content-Length: xxx
 
 　　关于所有操作使用的通用参数信息，请参考[通用请求](tong_yong_qing_qiu.md) "公共参数"部分
   
-　　**DistributionVersion**
+　　**Distribution**
   
-　　　　Hadoop发行版本说明。当前仅支持“hadoop 2.6.0”，如果不填则默认试用“hadoop 2.6.0”。　<br>
+　　　　Hadoop发行版本说明。支持“kmr-1.0.0”与“kmr-2.0.0”。　<br>
 　　　　类型：String<br>
+　　　　默认：“kmr-2.0.0”<br>
 　　　　是否必须：否
     
 　　**Applications.member.N**
   
-　　　　安装应用列表。可选值为“hadoop”，“hive”，“pig”与“spark”，区分大小写。如果不填则默认为“hadoop”。<br>
+　　　　安装应用列表。可选值为“hadoop”，“hive”，“hbase”，“spark”，“storm”，“kafka”等，区分大小写。如果不填则默认为“hadoop”。<br>
 　　　　类型：String列表<br>
 　　　　是否必须：否
     
 　　**InstanceGroups.member.N**
   
 　　　　集群里虚机的配置和数目信息。<br>
-　　　　类型：InstanceGroupConfig列表   (InstanceGroupConfig)<br>
+　　　　类型：InstanceGroupConfig列表   [InstanceGroupConfig](shu_ju_lei_xing.md#InstanceGroupConfig)<br>
 　　　　是否必须：是
    
-　　**AutoTerminate**
+　　**IsTransient**
   
-　　　　集群在运行完作业后是否自动释放。<br>
+　　　　是否为临时集群。<br>
 　　　　类型：Boolean <br>
+　　　　默认：False      
 　　　　是否必须：否
+    
+　　**ChargeType**
+  
+　　　　集群计费类型：包年包月"Monthly"，按需付费"Minutely"，免费试用"FreeTrial"。<br/>
+　　　　包年包月"Monthly"：包月集群，有到期时间。<br/> 
+　　　　按需付费"Minutely"：按分钟计费，按月结算。   
+　　　　免费试用"FreeTrial"：用户有试用quota时能创建出免费试用集群。<br> 
+　　　　类型：String <br/>
+　　　　默认："Minutely"      
+　　　　是否必须：否
+   
+　　**PurchaseTime**
+  
+　　　　集群购买时长，单位月。“包年包月”必须要选择，有效值1-36；其余计费类无需此项内容（系统按0处理）。<br>
+　　　　类型：Integer<br>
+　　　　是否必须：否   
+   
+　　**MetaDatabaseUri**
+  
+　　　　元数据管理的数据库信息。<br>
+　　　　元数据主要指集群监控元数据，Hive的元数据管理等。当用户选择集群外的RDS或者自建MySql来管理元数据时需要填写。<br>
+　　　　类型：String <br>
+　　　　格式：mysql://{username}:{password}@{hostname}:{port} <br> 
+　　　　是否必须：否   
    
 　　**TerminationProtected**
   
 　　　　集群是否启用释放保护锁。<br>
 　　　　类型：Boolean <br>
+　　　　默认：True <br> 
 　　　　是否必须：否
    
 　　**VpcDomainId**
@@ -297,8 +326,8 @@ Content-Length: xxx
     
 　　**Steps.member.N**
   
-　　　　自定义需要运行的作业列表。<br>
-　　　　类型：StepConfig列表 （StepConfig）<br>
+　　　　自定义需要运行的作业列表。(常驻集群暂不支持)<br>
+　　　　类型：StepConfig列表 [StepConfig](shu_ju_lei_xing.md#StepConfig)<br>
 　　　　是否必须：否
     
 　　**EnableEIP**
@@ -310,13 +339,13 @@ Content-Length: xxx
 　　**Configurations.member.N**
   
 　　　　所创建集群的配置信息。<br>
-　　　　类型：Configuration列表 （Configuration）<br>
+　　　　类型：Configuration列表 [Configuration](shu_ju_lei_xing.md#Configuration)<br>
 　　　　是否必须：否
     
 　　**BootstrapActions.member.N**
   
 　　　　集群引导操作列表<br>
-　　　　类型：BootstrapAction列表(BootstrapAction)<br>
+　　　　类型：BootstrapAction列表 [BootstrapAction](shu_ju_lei_xing.md#BootstrapAction)<br>
 　　　　是否必须：否
     　　
 * **返回参数**
@@ -354,7 +383,7 @@ X-Action: LaunchCluter
 X-Version: 2016-05-20
 {
   "Name": "api-test",
-  "KeepJobFlowAliveWhenNoSteps": False
+  "AutoTerminate": False，
   "InstanceGroups" : [
       {
         "InstanceType" : "kmr.general",
@@ -376,6 +405,7 @@ X-Version: 2016-05-20
                     "ks3://kmr-bj-test/input",
                     "ks3://kmr-bj-test/output"
                 ],
+                "Type": "MapReduce",
                 "Jar": "ks3://kmr-bj-test/jobtest/job.jar",
                 "MainClass": "org.apache.hadoop.examples.WordCount"
             }
@@ -576,7 +606,7 @@ Content-Length: 2
 　　**InstanceGroups**
   
 　　　　基于给定过滤条件返回指定集群的实例组列表<br>
-　　　　类型：InstanceGroup 列表  (InstanceGroup) 
+　　　　类型：InstanceGroup 列表  [InstanceGroup](shu_ju_lei_xing.md#InstanceGroup)
 
 　　**Marker**
   
@@ -673,7 +703,7 @@ Date: Thu, 07 Jan 2016 02:57:57 GMT
 　　**InstanceGroups**
   
 　　　　需要添加的InstanceGroup配置列表<br>
-　　　　类型：InstanceGroupConfig列表  (InstanceGroupConfig)<br>
+　　　　类型：InstanceGroupConfig列表  [InstanceGroupConfig](shu_ju_lei_xing.md#InstanceGroupConfig)<br>
 　　　　是否必须：是
     　　
 * **返回参数**
@@ -759,7 +789,7 @@ Content-Length: 2
 　　**InstanceGroups**
     
 　　　　InstanceGroup类型列表。<br>
-　　　　类型：InstanceGroupConfig列表  (InstanceGroupConfig)<br>
+　　　　类型：InstanceGroupConfig列表  [InstanceGroupConfig](shu_ju_lei_xing.md#InstanceGroupConfig)<br>
 　　　　是否必须：是
     
 * **返回参数**
@@ -860,7 +890,7 @@ Content-Length: 2
 　　**Instances**
   
 　　　　Instance结果<br>
-　　　　类型：Instance列表 (Instance) 
+　　　　类型：Instance列表 [Instance](shu_ju_lei_xing.md#Instance)
     
 　　**Marker**
   
@@ -923,7 +953,104 @@ Date: Thu, 07 Jan 2016 02:57:57 GMT
 ```
 
 
+<h3 name="ListDistributions" id="ListDistributions">10.ListDistributions</h3>
 
+
+
+---
+
+
+
+
+* **功能描述**
+
+　　提供了KMR集群可用的发行版信息，以及发型版里面支持的应用信息。
+ 
+* **请求参数**
+
+　　关于所有操作使用的通用参数信息，请参考[通用请求](tong_yong_qing_qiu.md) "公共参数"部分
+
+    
+* **返回参数**
+
+　　返回结果包含以下字段：
+  
+　　**Distributions**
+  
+　　　　发行版列表<br>
+　　　　类型：Distribution列表 [Distribution](shu_ju_lei_xing.md#Distribution)
+
+* **错误信息**
+
+　　关于所有操作使用的通用错误信息，参考[通用请求](tong_yong_qing_qiu.md) "通用错误信息"部分
+
+
+　　**InternalServerError**
+  
+　　　　当KMR服务出现内部错误时出现该错误信息类型<br>
+　　　　HTTP状态码：500
+    
+　　**BadRequest**
+  
+　　　　当用户输入信息有误时出现该错误信息<br>
+　　　　HTTP状态码：400
+
+* **样例**
+
+　　**请求样例**
+
+```
+GET / HTTP/1.1
+POST / HTTP/1.1
+Content-Type: application/json
+X-Action: ListDistributions
+X-Version: 2016-05-20
+{
+}
+```
+
+
+　　**返回样例**
+  
+```
+HTTP/1.1 200 OK
+  Content-Type: application/json
+Content-Length: 328
+Date: Thu, 07 Jan 2016 02:57:57 GMT
+{
+  "Distributions": 
+    [
+      {
+        "Release": "1.0.0", 
+        "Applications": 
+          [
+            {
+              "Release": "2.6.0", 
+              "Required": true, 
+              "Name": "hadoop"
+            }, 
+            {
+              "Release": "0.14.0", 
+              "Required": true, 
+              "Name": "hive"
+            }, 
+            {
+              "Release": "0.10.0", 
+              "Required": true, 
+              "Name": "pig"
+            }, 
+            {
+              "Release": "1.5.2", 
+              "Required": false, 
+              "Name": "spark"
+            }
+          ], 
+        "Vendor": "KSYUN", 
+        "Name": "kmr-1.0.0"
+      }
+    ]
+}
+```
 
 
 

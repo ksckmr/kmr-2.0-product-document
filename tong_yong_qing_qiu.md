@@ -8,6 +8,7 @@
  
  **[4. 通用错误信息](#tong_yong_cuo_wu_xin_xi)**
 
+
 <h3 name="fu_wu_xin_xi" id="fu_wu_xin_xi">1.服务信息</h3>
 
 
@@ -19,16 +20,16 @@
  
 　　金山云KMR服务接入地址：
   
- 　　•　北京地区：kmr.cn-beijing-6.api.ksyun.com <br/>
- 　　•　上海地区：kmr.cn-shanghai-2.ksyun.com
+ 　　•　北京地区：kmr.cn-beijing-6.api.ksyun.com<br/>
+ 　　•　上海地区：kmr.cn-shanghai-2.api.ksyu.com<br/>
 
 * 通讯协议
 
-　　只支持通过HTTP协议进行通信。
+　　支持HTTP或HTTTPS协议进行通信。
 
 * 请求方法
 
-　　支持HTTP POST方法发送请求。
+　　使用POST方法发送请求。
 
 * 请求参数
 
@@ -45,10 +46,7 @@
 
 <h3 name="gong_gong_can_shu" id="gong_gong_can_shu">2.公共参数</h3>
 
-
 ---
-
-
 
 | 名称 | 描述 | 是否必须 |
 | -- | -- | -- |
@@ -61,12 +59,10 @@
 | X-Ksc-Date | 请求发出的时间，格式：<br>yyyyMMdd'T'HHmmss'Z'  | 是 |
 
 
+
 <h3 name="qian_ming_ji_zhi" id="qian_ming_ji_zhi">3.签名机制</h3>
 
-
 ---
-
-
 
 　　发送给KMR服务的HTTP请求中，必须包含授权参数和其他公共参数。KMR服务使用用户的Access Key ID和Secret Access Key进行加密方式来验证请求者的身份。Access Key ID和Secret Access Key由金山云发给用户，Access Key ID作为用户的身份标识，Secret Access Key作为用户和服务器端进行签名计算的密钥。
 
