@@ -37,6 +37,7 @@
   
 
   <h3 name="ji_qun_ji_ben_xin_xi" id="ji_qun_ji_ben_xin_xi">集群详情</h3>
+  
 ---
 
 　　集群详情页面列出的集群的基本信息，您可以对一些集群配置进行更改
