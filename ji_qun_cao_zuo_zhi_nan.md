@@ -31,6 +31,8 @@
     
 　　**保存为模板：**您可以将已创建的集群直接保存为模板 
   
+  
+  
 
   <h3 name="ji_qun_ji_ben_xin_xi" id="ji_qun_ji_ben_xin_xi">1.集群基本信息</h3>
   
