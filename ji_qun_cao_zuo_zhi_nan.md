@@ -67,12 +67,7 @@
 　　**节点配置信息：**列出了平台版本、已安装应用和集群节点的硬件配置信息，点击“展开”超链接，可以看到节点ID，状态，IP地址等更多信息。对于临时集群，点击“添加”超链接，可以添加任务节点。
   
 　　**管理工具：**Hadoop和Spark等应用具有丰富的原生管理工具，点击各个工具链接，能够直接进入管理界面，进行相关管理和查询。用户通过此接口进入管理工具界面，无需使用SSH Tunnel方式进入。管理工具包括Ambari控制台、Ganglia集群监控工具、YARN管理工具、HDFS管理工具、Oozie管理工具、YARN History Server和Spark History Server，其中监控临时集群运行状态使用Ganglia工具，监控常驻集群试用Ambari工具，详情请参考[监控指南](jian_kong_zhi_nan.md)
-  
-　
-  
-　
 
-　　
   
   
    <h3 name="zuo_ye_xiang_qing" id="zuo_ye_xiang_qing">作业详情（仅临时集群）</h3>
