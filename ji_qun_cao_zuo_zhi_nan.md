@@ -45,7 +45,7 @@
 ![集群详情](jqxq.png)
 
 
-　**绑定SSH密钥：**点击该按钮，可以为集群绑定SSH密钥，请参考[SSH连接指南](sshlian_jie_zhi_nan.md)中的"为集群添加SSH密钥”部分
+　　**绑定SSH密钥：**点击该按钮，可以为集群绑定SSH密钥，请参考[SSH连接指南](sshlian_jie_zhi_nan.md)中的"为集群添加SSH密钥”部分
  
 　　**绑定/解绑EIP：**可以通过绑定EIP来获取公网地址访问主节点，如果已绑定EIP，也可以解绑EIP。
   
