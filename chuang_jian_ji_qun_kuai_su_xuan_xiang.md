@@ -72,7 +72,15 @@
 
 　　
 
-  <h3 name="Software_And_Node" id="Software_And_Node">软件与节点配置</h3>
+  <h3 name="Software_And_Node" id="Software_And_Node">网络设置与其他</h3>
+  
+  
+---
+
+
+
+
+  <h3 name="Software_And_Node" id="Software_And_Node">引导与作业设置（仅临时集群）</h3>
   
   
 ---
