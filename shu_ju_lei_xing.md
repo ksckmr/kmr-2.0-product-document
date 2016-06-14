@@ -68,7 +68,7 @@
     
 　　**Distribution**
   
-　　　　集群选用的Hadoop发行版本信息，支持“kmr 1.0.0”与“kmr 2.0.0”。<br>
+　　　　集群选用的Hadoop发行版本信息，支持“kmr-1.0.0”与“kmr-2.0.0”。<br>
 　　　　类型：String<br>
 　　　　是否必须：否
     
@@ -81,9 +81,8 @@
 　　**MetaDatabaseUri**
   
 　　　　元数据管理的数据库信息。<br>
-　　　　元数据主要指集群监控元数据，Hive的元数据管理等。当用户选择集群外的RDS或者自建MySql来管理元数据时需要填写。<br>
+　　　　元数据主要指集群监控元数据，Hive的元数据管理等。<br>
 　　　　类型：String <br>
-　　　　格式：mysql://{username}:{password}@{hostname}:{port} <br> 
 　　　　是否必须：否 
 
 　　**Id**
