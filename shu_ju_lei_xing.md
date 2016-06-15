@@ -271,7 +271,7 @@
     
 　　**MainClass**
   
-　　　　指定jave file中main classs名称。如果没有指定，jar file需要在manifest文件中指定。<br>
+　　　　指定jave file中main class名称。如果没有指定，jar file需要在manifest文件中指定。<br>
 　　　　类型：String<br>
 　　　　是否必须：否
     
