@@ -61,8 +61,7 @@
   
 　　　　集群计费类型：包年包月"Monthly"，按需付费"Minutely"，免费试用"FreeTrial"。<br/>
 　　　　包年包月"Monthly"：包月集群，有到期时间。<br/> 
-　　　　按需付费"Minutely"：按分钟计费，按月结算。<br/>    
-　　　　免费试用"FreeTrial"：用户有试用quota时能创建出免费试用集群。<br/>    
+　　　　按需付费"Minutely"：按分钟计费，按月结算。<br/>    　　　　免费试用"FreeTrial"：用户有试用quota时能创建出免费试用集群。<br/>
 　　　　类型：String <br/>
 　　　　是否必须：否
     
