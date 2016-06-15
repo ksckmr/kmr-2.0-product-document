@@ -387,7 +387,7 @@ Step状态包含：
 |  COMPLETED  |  运行完成 |
 |  CANCELLED  |  已被取消 |
 |  FAILED  |  运行失败 |
-|  INTERRUPTED  |　|
+|  INTERRUPTED  | 被中断　|
 
 
 2、同步式客户端调用API
