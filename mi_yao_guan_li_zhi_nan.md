@@ -71,7 +71,7 @@
 
 ![绑定EIP](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/fwjq1.png)
 
-　　3.导入创建密钥时中产生的私钥
+　　3.导入创建密钥时产生的私钥
 
 ![导入私钥](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/fwjq2.png)
 
