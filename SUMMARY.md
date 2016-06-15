@@ -14,7 +14,7 @@
    * [集群操作](ji_qun_cao_zuo_zhi_nan.md)
    * [集群模板管理](ji_qun_mu_ban_guan_li_zhi_nan.md)
    * [执行计划管理](zhi_xing_ji_hua_zhi_nan.md)
-   * [密钥管理](mi_yao_guan_li_zhi_nan.md)
+   * [SSH密钥管理](mi_yao_guan_li_zhi_nan.md)
    * [集群监控管理](jian_kong_zhi_nan.md)
    * [SSH连接指南](sshlian_jie_zhi_nan.md)
    * [产品术语表](chan_pin_zhu_yu_biao.md)
