@@ -1,14 +1,17 @@
 
-# KMR服务和Http管理端口列表
+# 应用组件和管理端口列表
 
 
-　　**主节点：**
+
+## **主节点：**
+
+
 
 | 服务名称 | Http管理端口 |
 | -- | -- |
 | YARN ResourceManager | 8088 |
 | HDFS Namenode | 50070 |
-| HDFS seconderynamenode | N/A |
+| HDFS Secondery namenode | N/A |
 | OOZIE | 11000 |
 | YARN HistoryServer | 19888 |
 | Spark History Server | 18080 |
@@ -17,12 +20,15 @@
 | Hbase Master | 60010 |
 | Storm Nimbus | N/A |
 
-　　**核心节点：**
+
+## **核心节点：**
+
+
   
-| 服务名称 | 端口 |
+| 服务名称 | Http管理端口 |
 | -- | -- |
-| HDFS datanode | N/A |
-| YARN nodemanager | N/A |
+| HDFS Datanode | N/A |
+| YARN Nodemanager | N/A |
 | ZooKeeper Server | N/A |
 | Hbase RegionServer | N/A |
 | Kafka Broker | N/A |
