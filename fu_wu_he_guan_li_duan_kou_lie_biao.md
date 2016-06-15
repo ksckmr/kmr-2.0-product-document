@@ -11,7 +11,7 @@
 | -- | -- |
 | YARN ResourceManager | 8088 |
 | HDFS Namenode | 50070 |
-| HDFS secondery namenode | N/A |
+| HDFS Secondery namenode | N/A |
 | OOZIE | 11000 |
 | YARN HistoryServer | 19888 |
 | Spark History Server | 18080 |
@@ -27,8 +27,8 @@
   
 | 服务名称 | Http管理端口 |
 | -- | -- |
-| HDFS datanode | N/A |
-| YARN nodemanager | N/A |
+| HDFS Datanode | N/A |
+| YARN Nodemanager | N/A |
 | ZooKeeper Server | N/A |
 | Hbase RegionServer | N/A |
 | Kafka Broker | N/A |
