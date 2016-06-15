@@ -15,7 +15,7 @@
 | HiveServer | N/A |
 | ZooKeeper Server | 2181 |
 | Hbase Master | 60010 |
-| Storm Nimbus | 60010 |
+| Storm Nimbus | N/A |
 
 　　**Core节点：**
   
@@ -26,3 +26,4 @@
 | ZooKeeper Server | N/A |
 | Hbase RegionServer | N/A |
 | Kafka Broker | N/A |
+| Storm Supervisor | N/A |
