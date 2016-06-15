@@ -9,7 +9,7 @@
 
 * [密钥列表](#mi_yao_lie_biao)
 
-* [使用](#mi_yao_lie_biao)
+* [使用SSH访问集群](#fang_wen_ji_qun)
 
 <h3 name="chuang_jian_mi_yao" id="chuang_jian_mi_yao">创建密钥</h3>
 
