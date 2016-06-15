@@ -72,7 +72,7 @@
   
 　　KMR提供了用于集群操作的OpenAPI和SDK,您可以根据需要开发应用程序，实现集群创建、释放，作业下发，集群和作业状态监控等多种自动化任务，进一步提高效率，降低成本。
   
-　　详见[《KMR API参考指南》](apican_kao_shou_ce.md)[《KMR Java Sdk使用手册》](sdkshi_yong_shou_ce.md)
+　　详见[《KMR API参考手册》](apican_kao_shou_ce.md)[《KMR Java Sdk使用手册》](sdkshi_yong_shou_ce.md)
   
   
   
