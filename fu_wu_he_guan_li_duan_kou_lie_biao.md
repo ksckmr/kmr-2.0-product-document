@@ -19,7 +19,7 @@
 
 　　**核心节点：**
   
-| 服务名称 | 端口 |
+| 服务名称 | Http管理端口 |
 | -- | -- |
 | HDFS datanode | N/A |
 | YARN nodemanager | N/A |
