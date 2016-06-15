@@ -102,7 +102,7 @@ KMR常驻集群中集成了Ambari管理工具，Apache Ambari是一种基于Web�
 
 　　**Spark History Server**
 
-　　运行Spark应用程序的时候，driver会提供一个webUI显示应用程序的运行信息，但是应用程序完成后，将关闭端口，即无法查看应用程序的历史记录。Spark History Server将运行完的应用程序信息义Web的方式提供给用户。
+　　运行Spark应用程序的时候，driver会提供一个webUI显示应用程序的运行信息，但是应用程序完成后，将关闭端口，即无法查看应用程序的历史记录。Spark History Server将运行完的应用程序信息以Web的方式提供给用户。
   
 
 ![spark](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jkzn6.png)
