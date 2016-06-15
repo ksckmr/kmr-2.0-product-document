@@ -3,7 +3,7 @@
 
 
 
-## 　　**主节点：**
+## **主节点：**
 
 
 
@@ -19,10 +19,9 @@
 | ZooKeeper Server | N/A |
 | Hbase Master | 60010 |
 | Storm Nimbus | N/A |
-<br/>
-<br>
 
-## 　　**核心节点：**
+
+## **核心节点：**
 
 
   
