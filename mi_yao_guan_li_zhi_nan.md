@@ -67,11 +67,11 @@
   
   1.选择创建好的密钥，点击“加载到集群”按钮，把密钥加载到集群
   
-  　　1.打开KMR控制台，进入集群详情，展开主节点的详细信息，您可以通过公网（如果绑定EIP）IP地址访问集群，或者同一VPC内的云主机通过内网IP地址访问集群。
+  　　2.打开KMR控制台，进入集群详情，展开主节点的详细信息，您可以通过公网（如果绑定EIP）IP地址访问集群，或者同一VPC内的云主机通过内网IP地址访问集群。
 
 ![绑定EIP](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/fwjq1.png)
 
-　　2.导入[为集群添加SSH密钥](#tian_jia_ssh_mi_yao) 中产生的私钥
+　　3.导入创建密钥时中产生的私钥
 
 ![导入私钥](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/fwjq2.png)
 
