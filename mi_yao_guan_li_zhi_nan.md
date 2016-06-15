@@ -24,6 +24,12 @@
 　　Linux 用户可以通过 ssh-keygen –t rsa 来生成，默认生成在~/.ssh/目录下，公钥文件是~/.ssh/id_rsa.pub，用户使用ssh-keygen时也可以自己指定公钥目录。
 
 
+　　2.打开KMR控制台，选择“集群密钥”，点击“创建密钥”按钮，把第1步生成的公钥文件内容粘贴到对话框，并点击“创建”
+
+![创建密钥](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/tjmy2.png)
+
+　　3.选择刚刚创建好的密钥，点击“加载到集群”按钮，把密钥加载到集群，您可以把密钥同时加载到多个集群。至此，密钥加载完成
+
 　　打开金山云控制台，选择KMR服务，选择“集群密钥”，点击“创建密钥”，进入创建密钥页面
 
 ![创建密钥](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/mygl1.png)
