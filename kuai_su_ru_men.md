@@ -2,6 +2,8 @@
 
 　　KMR为您提供了样例程序和样例数据，本章节将会带您快速使用KMR，创建一个KMR集群，并添加一个作业，最终查看计算结果。
   
+　　1.
+  
 　　1.登录金山云控制台，选择数据分析->托管Hadoop
 
 　　![快速体验1](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/1.5-1-login.jpg)
