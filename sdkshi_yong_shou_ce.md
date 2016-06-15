@@ -18,6 +18,7 @@ sdk使用样例请参考：https://github.com/kmr-sdk/kmr-java-sample
 ## 3 初始化
 ### 3.1 获取密钥
 1、开通KMR服务
+
 2、获取AK/SK
 进入控制台: http://ks3.ksyun.com/console.html#/ ，点击页面左侧“帐号设置”，获取AccessKey、SecretKey.
 ### 3.2 初始化客户端
