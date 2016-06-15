@@ -231,7 +231,7 @@ Content-Length: xxx
 
 * **功能描述**
 
-　　创建集群操作，操作成功后会创建一个KMR集群，如果参数中带有作业配置，则集群创建成功后将自动运行指定的作业。如果AutoTerminate设置为True，则作业运行完毕后集群不会释放，反之集群会在所有作业完成后自动释放；关于参数中TerminationProtected的设置及原理介绍请参见SetTerminationProtection部分。
+　　创建集群操作，操作成功后会创建一个KMR集群，如果参数中带有作业配置，则集群创建成功后将自动运行指定的作业。如果AutoTerminate设置为True，则作业运行完毕后集群不会释放，反之集群会在所有作业完成后自动释放；关于参数中TerminationProtected的设置及原理介绍请参见[SetTerminationProtection](#SetTerminationProtection)部分。
  
 * **请求参数**
 
@@ -509,7 +509,7 @@ Content-Length: 2
   
 　　如果集群设置了自动释放功能，而且所有作业运行完毕，则集群将不受释放保护功能的影响，可以自动释放。
   
-　　ｓ如果想释放开启了释放保护锁的集群，则必须要先调通此API，将释放保护设置为false，然后释放集群。
+　　如果想释放开启了释放保护锁的集群，则必须要先调通此API，将释放保护设置为false，然后释放集群。
  
 * **请求参数**
 
