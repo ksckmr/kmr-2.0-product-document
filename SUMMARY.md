@@ -20,7 +20,6 @@
    * [产品术语表](chan_pin_zhu_yu_biao.md)
    * [KMR日志归集路径](kmrri_zhi_gui_ji_lu_jing.md)
    * [服务和管理端口列表](fu_wu_he_guan_li_duan_kou_lie_biao.md)
-   * [密钥管理](sshmi_yao_guan_li.md)
 * [购买指南](gou_mai_zhi_nan.md)
    * [产品定价与选购](chan_pin_ding_jia_yu_xuan_gou.md)
    * [FAQ](faq.md)
