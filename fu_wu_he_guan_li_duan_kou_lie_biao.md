@@ -8,7 +8,7 @@
 | -- | -- |
 | YARN ResourceManager | 8088 |
 | HDFS Namenode | 50070 |
-| HDFS seconderynamenode | N/A |
+| HDFS secondery namenode | N/A |
 | OOZIE | 11000 |
 | YARN HistoryServer | 19888 |
 | Spark History Server | 18080 |
