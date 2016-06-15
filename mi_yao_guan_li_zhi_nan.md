@@ -1,4 +1,4 @@
-## 密钥管理
+## SSH密钥管理
 
 
 　　用户除了通过控制台来管理集群和作业外，也可以通过SSH来访问管理集群，而KMR集群仅支持SSH 密钥认证方式，因此密钥管理模块用来管理通过SSH方式访问集群的密钥。
@@ -7,22 +7,34 @@
 
 * [密钥列表](#mi_yao_lie_biao)
 
+* [使用SSH访问集群](#fang_wen_ji_qun)
+
 <h3 name="chuang_jian_mi_yao" id="chuang_jian_mi_yao">创建密钥</h3>
 
 
 ---
 
+1.使用密钥生成工具生成SSH-2 RSA密钥，保存好私钥和公钥
+
+![生成密钥](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/tjmy1.png)
+
+　　windows用户可以使用PuTTYgen.exe工具<br>
+    　　http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+  
+　　Linux 用户可以通过``` ssh-keygen –t rsa``` 来生成，默认生成在```~/.ssh/```目录下，公钥文件是```~/.ssh/id_rsa.pub```，用户使用```ssh-keygen```时也可以自己指定公钥目录。
 
 
-　　打开金山云控制台，选择KMR服务，选择“集群密钥”，点击“创建密钥”，进入创建密钥页面
-
-![创建密钥](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/mygl1.png)
-
-| 字段 | 操作 |
+　　2.打开KMR控制台，选择“集群密钥”，点击“创建密钥”按钮，进入创建密钥界面。
+　　
+  ![创建密钥](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/mygl1.png)
+  
+  | 字段 | 操作 |
 | -- | -- |
 | **名称** | 您可以为密钥输入描述性名称 |
 | **描述** | 输入对该密钥的描述语言 |
-| **公钥** | 输入用密钥生成工具生成的公钥，格式形如“ssh-rsaAAAAB3NzaC1yc2EAAAABJQAAAQEAxljLUF//ygzu1Dy/sArs1hpoN……”详情见 [SSH连接指南](sshlian_jie_zhi_nan.md)中的“为集群添加SSH密钥”部分 |
+| **公钥** | 把第一步生成的公钥文件内容粘贴到这里，格式形如“ssh-rsaAAAAB3NzaC1yc2EAAAABJQAAAQEAxljLUF//ygzu1Dy/sArs1hpoN……” |
+  
+
 
 <h3 name="mi_yao_lie_biao" id="mi_yao_lie_biao">密钥列表</h3>
 
@@ -36,10 +48,37 @@
 
 　　**创建密钥：**您可以创建密钥，详情参考[创建密钥](#chuang_jian_mi_yao)
   
-　　**加载到集群：**您可以在左侧勾选一个或多个密钥，然后选择“加载到集群”将密钥加载到集群，加载到的集群也可以选择多个
+　　**加载到集群：**您可以在左侧勾选一个或多个密钥，然后选择“加载到集群”将密钥加载到集群，加载到的集群也可以选择多个,将密钥加载到集群之后，即可通过SSH访问集群
   
 　　**删除：**您可以在左侧勾选一个或多个计划，然后选择“删除密钥”来删除密钥
   
 　　**刷新：**您可以刷新密钥列表
   
 　　**查看公钥：**您可以查看公钥详细内容
+  
+  
+<h3 name="fang_wen_ji_qun" id="fang_wen_ji_qun">使用SSH访问集群</h3>
+
+
+---
+
+  
+ 　　1.选择创建密钥时创建好的密钥，点击“加载到集群”按钮，把密钥加载到集群
+
+　　2.导入创建密钥时产生的私钥
+
+![导入私钥](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/fwjq2.png)
+
+　　windows用户可以使用PuTTY.exe工具<br>
+　　http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+  
+　　3.指定IP和端口连接KMR主节点，连接到集群，登陆账户名是root。
+
+　　获得IP地址：打开KMR控制台，进入要访问的集群详情页面，展开主节点的详细信息，您可以通过公网（如果绑定EIP）IP地址访问集群，或者同一VPC内的云主机通过内网IP地址访问集群。
+
+![绑定EIP](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/fwjq1.png)
+
+![连接到集群](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/fwjq3.png)
+
+　　4.主节点和核心节点已配置了SSH互信，可以在控制台查看核心节点的IP地址，直接从主节点登陆到各个核心节点。
+  
