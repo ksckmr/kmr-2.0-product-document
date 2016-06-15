@@ -66,4 +66,21 @@
 
   
   1.选择创建好的密钥，点击“加载到集群”按钮，把密钥加载到集群
-  2.
+  
+  　　1.打开KMR控制台，进入集群详情，展开主节点的详细信息，您可以通过公网（如果绑定EIP）IP地址访问集群，或者同一VPC内的云主机通过内网IP地址访问集群。
+
+![绑定EIP](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/fwjq1.png)
+
+　　2.导入[为集群添加SSH密钥](#tian_jia_ssh_mi_yao) 中产生的私钥
+
+![导入私钥](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/fwjq2.png)
+
+　　windows用户可以使用PuTTY.exe工具<br>
+　　http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+  
+　　3.指定IP和端口连接KMR主节点，连接到集群，登陆账户名是root。
+
+![连接到集群](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/fwjq3.png)
+
+　　4.主节点和核心节点已配置了SSH互信，可以在控制台查看核心节点的IP地址，直接从主节点登陆到各个核心节点。
+  
