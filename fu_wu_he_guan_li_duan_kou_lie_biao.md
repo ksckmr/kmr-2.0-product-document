@@ -1,5 +1,5 @@
 
-# 服务和管理端口列表
+# KMR服务和web管理端口列表
 
 
 　　**MASTER节点：**
@@ -13,6 +13,8 @@
 | YARN HistoryServer | 19888 |
 | Spark History Server | 18080 |
 | HiveServer | N/A |
+| ZooKeeper Server | 2181 |
+| Hbase Master | 60010 |
 
 　　**Core节点：**
   
@@ -20,3 +22,5 @@
 | -- | -- |
 | HDFS datanode | N/A |
 | YARN nodemanager | N/A |
+| ZooKeeper Server | N/A |
+| Hbase RegionServer | N/A |
