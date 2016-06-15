@@ -30,7 +30,7 @@
   
 　　操作步骤:
   
-　　1.通过SSH连接到主节点，请参考 [SSH连接指南](sshlian_jie_zhi_nan.md)<br>
+　　1.通过SSH连接到主节点，请参考 [SSH连接指南](mi_yao_guan_li_zhi_nan.md)<br>
 　　2.输入命令： su hadoop 切换到hadoop用户<br>
 　　3.执行以下格式命令：hadoop distcp <源路径>  <目标路径>
 
