@@ -21,7 +21,7 @@
 　　windows用户可以使用PuTTYgen.exe工具<br>
     　　http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
   
-　　Linux 用户可以通过 ssh-keygen –t rsa 来生成，默认生成在~/.ssh/目录下，公钥文件是~/.ssh/id_rsa.pub，用户使用ssh-keygen时也可以自己指定公钥目录。
+　　Linux 用户可以通过``` ssh-keygen –t rsa``` 来生成，默认生成在```~/.ssh/```目录下，公钥文件是```~/.ssh/id_rsa.pub```，用户使用```ssh-keygen```时也可以自己指定公钥目录。
 
 
 　　2.打开KMR控制台，选择“集群密钥”，点击“创建密钥”按钮，进入创建密钥界面。
