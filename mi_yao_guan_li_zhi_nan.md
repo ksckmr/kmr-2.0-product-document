@@ -32,7 +32,7 @@
 | -- | -- |
 | **名称** | 您可以为密钥输入描述性名称 |
 | **描述** | 输入对该密钥的描述语言 |
-| **公钥** | 输入用密钥生成工具生成的公钥，格式形如“ssh-rsaAAAAB3NzaC1yc2EAAAABJQAAAQEAxljLUF//ygzu1Dy/sArs1hpoN……”详情见 [SSH连接指南](sshlian_jie_zhi_nan.md)中的“为集群添加SSH密钥”部分 |
+| **公钥** | 把第一步生成的公钥文件内容粘贴到这里，格式形如“ssh-rsaAAAAB3NzaC1yc2EAAAABJQAAAQEAxljLUF//ygzu1Dy/sArs1hpoN……” |
   
 　　把第1步生成的公钥文件内容粘贴到对话框，并点击“创建”
 
