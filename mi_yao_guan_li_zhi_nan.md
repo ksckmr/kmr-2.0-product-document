@@ -36,10 +36,6 @@
   
 　　3.选择刚刚创建好的密钥，点击“加载到集群”按钮，把密钥加载到集群，您可以把密钥同时加载到多个集群。至此，密钥加载完成
 
-　　打开金山云控制台，选择KMR服务，选择“集群密钥”，点击“创建密钥”，进入创建密钥页面
-
-![创建密钥](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/mygl1.png)
-
 
 
 <h3 name="mi_yao_lie_biao" id="mi_yao_lie_biao">密钥列表</h3>
