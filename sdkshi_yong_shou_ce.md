@@ -504,7 +504,7 @@ kmr sdk会抛出KSCServiceException、KSCClientException两类异常。KSCServic
     } catch (KSCServiceException kse) {
         System.out.println("Caught an KSCServiceException");
         System.out.println("Error Message:" + kse.getMessage());
-    } catch (KSCClientException kce) {
+    } catch (KSCClientException kse) {
         System.out.println("Caught an KSCClientException");
         System.out.println("Error Message:" + kce.getMessage());
     }
