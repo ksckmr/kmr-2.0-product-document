@@ -1,5 +1,5 @@
 
-# KMR服务和web管理端口列表
+# KMR服务和Http管理端口列表
 
 
 　　**MASTER节点：**
@@ -15,6 +15,7 @@
 | HiveServer | N/A |
 | ZooKeeper Server | 2181 |
 | Hbase Master | 60010 |
+| Storm Nimbus | 60010 |
 
 　　**Core节点：**
   
@@ -24,3 +25,4 @@
 | YARN nodemanager | N/A |
 | ZooKeeper Server | N/A |
 | Hbase RegionServer | N/A |
+| Kafka Broker | N/A |
