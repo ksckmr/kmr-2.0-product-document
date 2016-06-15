@@ -277,9 +277,9 @@
     
 　　**Properties**
   
-　　　为作业运行指定key-value列表，你可以在你的主函数中使用这些key-value。<br>
-　　　类型：KeyValue 列表<br>
-　　　是否必须：否
+　　　　为作业运行指定key-value列表，你可以在你的主函数中使用这些key-value。<br>
+　　　　类型：KeyValue 列表<br>
+　　　　是否必须：否
    
  
 <h3 name="StepStatus" id="StepStatus">6.StepStatus</h3>
