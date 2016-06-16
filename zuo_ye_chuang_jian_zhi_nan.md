@@ -131,7 +131,6 @@
 
 　　Spark是一种类Hadoop MapReduce的通用并行框架，Spark拥有Hadoop MapReduce所具有的优点，同时具有SQL查询，流式计算，集群学习等模块，得到了广泛的认可。KMR集成了最新版本的Spark，可用来构建大型的、低延迟的数据分析应用。
   
-　　*注意：Spark默认不会安装在KMR集群中，需要在集群创建时勾选，否则无法运行Spark类型作业。*
   
 　　1.在KMR集群创建时或者创建完成后打开添加作业页面，前置步骤请参考　[创建集群-快速选项](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)、[创建集群-高级选项](chuang_jian_ji_qun_gao_ji_xuan_xiang.md) 和[集群操作指南](ji_qun_cao_zuo_zhi_nan.md)中的“作业详情”部分
 
