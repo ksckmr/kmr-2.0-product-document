@@ -40,7 +40,7 @@
 
 ![快速体验7](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm7.png)
 
-　　12.当作业状态变为“已完成”时，集群将会自动释放，该临时集群资源被回收，您已完成了KMR的快速体验。
+　　12.当作业状态变为“已完成”时，集群将会自动释放，该集群资源被回收，您已完成了KMR的快速体验。
 
 ![快速体验8](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm8.png)
 
