@@ -38,6 +38,6 @@
 ```
 　　3.application log
 ```
-　　原始日志位置： /mnt/yarn/logs/userlogs <br>
+　　原始日志位置： /mnt/yarn/logs/userlogs
 　　KS3归集日志位置:  ks3://<日志归集路径>/<ClusterID>/<JobID>/ application_log
 ```
