@@ -28,15 +28,15 @@
 
 　　8.点击“购买”进入支付页面，支付成功后，即可创建集群
 
-　　8.集群创建完成后点击集群名称进入集群详情页面
+　　9.集群创建完成后点击集群名称进入集群详情页面
 
    ![快速体验5](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm5.png)
 
-　　9.在节点配置项中点击“展开/收起”可以查看集群节点的详细信息
+　　10.在节点配置项中点击“展开/收起”可以查看集群节点的详细信息
 
 ![快速体验6](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm6.png)
 
-　　10.选择“作业管理”，可以查看刚刚创建的作业状态
+　　11.选择“作业管理”，可以查看刚刚创建的作业状态
 
 ![快速体验7](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm7.png)
 
