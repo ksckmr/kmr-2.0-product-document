@@ -44,4 +44,4 @@
 
 ![快速体验8](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm8.png)
 
-![快速体验9](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm9.png)
+
