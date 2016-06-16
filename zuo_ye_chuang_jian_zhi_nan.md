@@ -21,7 +21,7 @@
 
 　　您可以编写 Java 应用程序，生成 JAR 文件，然后将 JAR 文件上传到集群本地HDFS或者KS3中来处理数据。当执行此操作时，JAR 文件必须包含适用于 Map-Reduce 功能的实现。
   
-　　1.在KMR集群创建时或者创建完成后打开添加作业页面，前置步骤请参考[集群创建](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)和[集群操作指南](ji_qun_cao_zuo_zhi_nan.md)中的“作业详情”部分
+　　1.在KMR集群创建时或者创建完成后打开添加作业页面，前置步骤请参考[集群创建](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)和集群操作中的[作业详情](ji_qun_cao_zuo_zhi_nan.md#zuo_ye_xiang_qing)部分
 
 ![custom jar](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/customjar.png)
 
@@ -51,8 +51,10 @@
 　　有关hadoop streaming，请参考<br>
 　　http://hadoop.apache.org/docs/r2.6.0/hadoop-mapreduce-client/hadoop-mapreduce-client-core/HadoopStreaming.html
   
-　　1.在KMR集群创建时或者创建完成后打开添加作业页面，前置步骤请参考　[创建集群-快速选项](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)、[创建集群-高级选项](chuang_jian_ji_qun_gao_ji_xuan_xiang.md) 和[集群操作指南](ji_qun_cao_zuo_zhi_nan.md)中的“作业详情”部分
+　　1.在KMR集群创建时或者创建完成后打开添加作业页面，前置步骤请参考[集群创建](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)和集群操作中的[作业详情](ji_qun_cao_zuo_zhi_nan.md#zuo_ye_xiang_qing)部分
 
+
+　　
 ![streaming](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/streaming.png)
 
 　　2.在添加作业页面填写作业信息，点击确定提交：
@@ -78,7 +80,9 @@
 
 　　Hive 是一种开源数据仓库和分析套件，它在 Hadoop 的基础上运行。Hive 脚本使用类似 SQL 的语言，名为 Hive QL（查询语言），该语言会将SQL语法映射为MapReduce 编程模型，支持典型的数据仓库查询交互。Hive 可避免您以低级别的计算机语言（如 Java）编写 MapReduce 程序这样的复杂工作。KMR提供对Hive的支持。
   
-　　1.在KMR集群创建时或者创建完成后打开添加作业页面，前置步骤请参考　[创建集群-快速选项](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)、[创建集群-高级选项](chuang_jian_ji_qun_gao_ji_xuan_xiang.md) 和[集群操作指南](ji_qun_cao_zuo_zhi_nan.md)中的“作业详情”部分
+　　1.在KMR集群创建时或者创建完成后打开添加作业页面，前置步骤请参考[集群创建](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)和集群操作中的[作业详情](ji_qun_cao_zuo_zhi_nan.md#zuo_ye_xiang_qing)部分
+　
+
 ![hive](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/hive.png)
 
 　　2.在添加作业页面填写作业信息，点击确定提交：
@@ -104,8 +108,9 @@
 
 　　Pig 是一种开源 Apache 库，在 Hadoop 的顶层上运行。该库使用名为 Pig Latin 的语言编写的、类似 SQL的命令，并将这些命令转换到 MapReduce 任务中。KMR支持 Apache Pig，此编程框架可用于分析和转换大型数据集。有关 Pig 的详细信息，请转到 http://pig.apache.org/
   
-　　1.在KMR集群创建时或者创建完成后打开添加作业页面，前置步骤请参考　[创建集群-快速选项](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)、[创建集群-高级选项](chuang_jian_ji_qun_gao_ji_xuan_xiang.md) 和[集群操作指南](ji_qun_cao_zuo_zhi_nan.md)中的“作业详情”部分
-
+　　1.在KMR集群创建时或者创建完成后打开添加作业页面，前置步骤请参考[集群创建](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)和集群操作中的[作业详情](ji_qun_cao_zuo_zhi_nan.md#zuo_ye_xiang_qing)部分
+　　
+  
 ![pig](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/pig.png)
 
 　　2.在添加作业页面填写作业信息，点击确定提交：
@@ -132,8 +137,9 @@
 　　Spark是一种类Hadoop MapReduce的通用并行框架，Spark拥有Hadoop MapReduce所具有的优点，同时具有SQL查询，流式计算，集群学习等模块，得到了广泛的认可。KMR集成了最新版本的Spark，可用来构建大型的、低延迟的数据分析应用。
   
   
-　　1.在KMR集群创建时或者创建完成后打开添加作业页面，前置步骤请参考　[创建集群-快速选项](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)、[创建集群-高级选项](chuang_jian_ji_qun_gao_ji_xuan_xiang.md) 和[集群操作指南](ji_qun_cao_zuo_zhi_nan.md)中的“作业详情”部分
-
+　　1.在KMR集群创建时或者创建完成后打开添加作业页面，前置步骤请参考[集群创建](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)和集群操作中的[作业详情](ji_qun_cao_zuo_zhi_nan.md#zuo_ye_xiang_qing)部分
+　
+ 
 ![spark](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/spark.png)
 
 　　2.在添加作业页面填写作业信息，点击确定提交：
