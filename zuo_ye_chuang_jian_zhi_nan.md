@@ -52,6 +52,7 @@
 　　http://hadoop.apache.org/docs/r2.6.0/hadoop-mapreduce-client/hadoop-mapreduce-client-core/HadoopStreaming.html
   
 　　1.在KMR集群创建时或者创建完成后打开添加作业页面，前置步骤请参考[集群创建](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)和集群操作中的[作业详情](ji_qun_cao_zuo_zhi_nan.md#zuo_ye_xiang_qing)部分
+
 　　
 ![streaming](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/streaming.png)
 
