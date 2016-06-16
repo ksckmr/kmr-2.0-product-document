@@ -26,7 +26,7 @@
 
 　　![快速体验4](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm4.png)
 
-　　8.集群创建完成后点击“详情”
+　　8.集群创建完成后点击集群名称进入集群详情页面
 
    ![快速体验5](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm5.png)
 
