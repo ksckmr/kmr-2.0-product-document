@@ -22,9 +22,11 @@
 
 　　![快速体验3](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm3.png)
 
-　　7.保持默认的作业配置，这里会执行一个标准的MapReduce作业，计算一套英文小说的单词数，点击“确定”关闭对话框，并点击“购买”
+　　7.保持默认的作业配置，这里会执行一个标准的MapReduce作业，计算一套英文小说的单词数，点击“确定”关闭对话框
 
 　　![快速体验4](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm4.png)
+
+　　8.点击“购买”进入支付页面，支付成功后，即可创建集群
 
 　　8.集群创建完成后点击集群名称进入集群详情页面
 
