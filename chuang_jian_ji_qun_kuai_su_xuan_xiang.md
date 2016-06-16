@@ -85,7 +85,7 @@
 
 **VPC子网** ：VPC子网是VPC中用于管理云主机的网络单元，您可以使用默认VPC子网，也可以选择自定义子网。如果使用自定义VPC，请确认VPC中已创建可用的VPC子网
 
-**EndPoint子网** ：EndPoint可以在您的VPC和其他KSC服务之间创建私有连接，使用KMR服务必须指定EndPoint。 如果使用自定义VPC，请确认VPC中已创建可用的EndPoint
+**EndPoint子网** ：EndPoint可以在您的VPC和其他金山云服务之间创建私有连接，使用KMR服务必须指定EndPoint。 如果使用自定义VPC，请确认VPC中已创建可用的EndPoint
 
 **SSH密钥（可选）** ：如果需要通过SSH访问集群，需要点击“绑定密钥”超链接为集群绑定SSH密钥，请参阅[SSH密钥管理](mi_yao_guan_li_zhi_nan.md) 
 
