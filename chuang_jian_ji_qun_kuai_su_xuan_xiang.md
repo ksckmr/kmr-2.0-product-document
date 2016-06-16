@@ -87,7 +87,7 @@
 
 **EndPoint子网** ：EndPoint可以在您的VPC和其他KSC服务之间创建私有连接，使用KMR服务必须指定EndPoint。 如果使用自定义VPC，请确认VPC中已创建可用的EndPoint
 
-**SSH密钥（可选）** ：如果需要通过SSH访问集群，需要点击“绑定密钥”超链接为集群绑定SSH密钥，请参阅[SSH连接指南](sshlian_jie_zhi_nan.md) 
+**SSH密钥（可选）** ：如果需要通过SSH访问集群，需要点击“绑定密钥”超链接为集群绑定SSH密钥，请参阅[SSH密钥管理](mi_yao_guan_li_zhi_nan.md) 
 
 **自定义参数（可选）** ：您可以通过此功能来自定义各类集群应用的参数配置（如core-site,hadoop-env等）,点击“配置参数”超链接，在弹出对话框中选择配置文件，并填写该配置文件的自定义参数，（注意KMR不会对参数的正确性进行检查），自定义参数的格式为"Key1=value1,Key2=value2",配置多个参数时用逗号分隔
 
