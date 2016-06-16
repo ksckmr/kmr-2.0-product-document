@@ -32,7 +32,7 @@
   
 　　**编辑模板：**您可以通过集群列表末尾的“编辑”超链接来修改模板配置信息
   
-　　**模板详情：**单击集群列表模板名称来进入模板详情页面，请参考 [集群模板详情](#ji_qun_mu_ban_xiang_qing)
+　　**模板详情：**点击模板名称进入模板详情页面，请参考 [集群模板详情](#ji_qun_mu_ban_xiang_qing)
   
 <h3 name="ji_qun_mu_ban_xiang_qing" id="ji_qun_mu_ban_xiang_qing">集群模板详情</h3>
 
