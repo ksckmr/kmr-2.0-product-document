@@ -34,7 +34,7 @@
 
 ![快速体验6](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm6.png)
 
-　　10.选择“作业列表”，可以查看刚刚创建的作业状态
+　　10.选择“作业管理”，可以查看刚刚创建的作业状态
 
 ![快速体验7](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm7.png)
 
