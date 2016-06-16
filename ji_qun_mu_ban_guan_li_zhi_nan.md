@@ -6,7 +6,7 @@
 
 * 创建模板
   
-　　创建模板的过程与创建临时集群的步骤基本一致，详情可参考 [创建集群-高级选项](chuang_jian_ji_qun_gao_ji_xuan_xiang.md)
+　　创建模板的过程与创建临时集群的步骤基本一致，详情可参考[集群创建](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)
 
 * [集群模板列表](#ji_qun_mu_ban_lie_biao)
 
