@@ -39,13 +39,13 @@
 　**　HDFS上传到KS3**
  
 ```
-　　hadoop distcp /user/hadoop/conf/hive-site.xml ks3://testbarcket/kmr/
+　　hadoop distcp /user/hadoop/conf/hive-site.xml ks3://testbucket/kmr/
 ```
 
 　　**KS3拷贝到HDFS**
   
 ```
-　　hadoop distcp ks3://testbarcket/kmr/hive-site.xml /user/hadoop/conf/
+　　hadoop distcp ks3://testbucket/kmr/hive-site.xml /user/hadoop/conf/
 ```
 
 　　Discp的更多用法请参考 [DisCp Guide](http://hadoop.apache.org/docs/stable1/distcp.html)
