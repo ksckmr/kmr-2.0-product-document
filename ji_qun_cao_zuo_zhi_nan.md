@@ -41,7 +41,7 @@
 
 　　集群详情页面列出集群的基本信息，您可以对一些集群配置进行更改
 
-![集群详情](jqxq.png)
+![集群详情](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.4-clusterInfo.png)
 
 
 　　**SSH KEY绑定：**为集群绑定SSH密钥，请参考[SSH连接指南](sshlian_jie_zhi_nan.md)中的"为集群添加SSH密钥”部分
