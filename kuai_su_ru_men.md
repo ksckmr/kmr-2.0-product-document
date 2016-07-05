@@ -30,7 +30,7 @@
 
 　　10.集群创建完成后点击集群名称进入集群详情页面
 
-   ![快速体验5](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm5.png)
+   ![快速体验5](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/1.5-10-cluster.png)
 
 　　11.在节点配置项中点击“展开/收起”可以查看集群节点的详细信息
 
