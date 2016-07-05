@@ -41,7 +41,7 @@
 
 
 　　3.设置作业信息，选择集群模板后，自动载入该模板内的作业
-![作业](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/zxjh3.png)
+![作业](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.6-job.png)
 
 <h3 name="zhi_xing_ji_hua_lie_biao" id="zhi_xing_ji_hua_lie_biao">执行计划列表</h3>
 
