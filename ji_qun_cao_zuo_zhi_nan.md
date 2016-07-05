@@ -77,4 +77,4 @@
 　　在临时集群集群集群管理页面，点击“作业列表”页签，您可以查看该集群中作业的详细信息，并可以为集群添加新的作业，参考[作业创建指南](zuo_ye_chuang_jian_zhi_nan.md)
   
   ![作业详情](zyxq1.png)  
-  ![作业详情](zyxq2.png)
+  ![作业详情](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.4-jobInfo.png)
