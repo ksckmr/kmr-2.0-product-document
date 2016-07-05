@@ -77,7 +77,7 @@
   
 ---
 
-![](3.png)
+![](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.2-internet.png)
 
 **EIP绑定** ：EIP是绑定在集群Master节点上的公网IP地址，主要用于集群的远程管理和作业提交，带宽为1Mbps，暂时无法调节
 
