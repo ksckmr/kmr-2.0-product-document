@@ -55,7 +55,7 @@
 
 
 　　
-![streaming](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/streaming.png)
+![streaming](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.3-Streaming.png)
 
 　　2.在添加作业页面填写作业信息，点击确定提交：
 
