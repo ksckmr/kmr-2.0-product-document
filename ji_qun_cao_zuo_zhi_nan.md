@@ -17,8 +17,8 @@
 
 
 　　集群创建完成后可以在集群列表中查看集群的基本信息，并对集群进行简单操作，集群列表会根据创建时间来排序
-  
-  ![](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.4-clusterList.png)
+ 
+ ![](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.4-clusterList.png)
   
  　　**新建集群：**您可以点击“新建集群”使用集群创建向导来创建集群，或者点击左侧导航“集群模板”项，进入集群模板管理页面，通过已有的模板来创建集群。
    
