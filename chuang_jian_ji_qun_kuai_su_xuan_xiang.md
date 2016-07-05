@@ -35,7 +35,7 @@
 
 
 
-![](1.jpg)
+![](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.2-basicInfo.png)
 
 **集群类型** ：KMR提供临时集群和常驻集群两种类型，临时集群在作业执行完毕后会自动释放，适合批量数据计算；常驻集群提供了更高的可用性，集成了更丰富的Hadoop生态组件，适合流计算、实时数据查询或者较为复杂的数据分析场景
 
@@ -54,7 +54,7 @@
 
 
 
-![](2.jpg)
+![](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.2-node.png)
 
 
 **产品版本** ：选择创建KMR集群所用的产品版本，选择不同版本可提供不同的集群基础配置和应用组件 
