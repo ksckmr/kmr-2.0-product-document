@@ -140,7 +140,7 @@
 　　1.在KMR集群创建时或者创建完成后打开添加作业页面，前置步骤请参考[集群创建](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)和集群操作中的[作业详情](ji_qun_cao_zuo_zhi_nan.md#zuo_ye_xiang_qing)部分
 　
  
-![spark](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/spark.png)
+![spark](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.3-spark.png)
 
 　　2.在添加作业页面填写作业信息，点击确定提交：
 
