@@ -26,7 +26,7 @@
 
 　　2.打开KMR控制台，选择“集群密钥”，点击“创建密钥”按钮，进入创建密钥界面。
 　　
-  ![创建密钥](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/mygl1.png)
+  ![创建密钥](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.7-createKey.png)
   
   | 字段 | 操作 |
 | -- | -- |
