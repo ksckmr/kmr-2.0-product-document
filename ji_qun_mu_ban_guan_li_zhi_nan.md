@@ -20,7 +20,7 @@
 
 　　模板创建完成后可以在模板列表中查看模板的基本信息，并对模板进行简单操作，模板列表会根据创建时间来排序。
   
-  ![集群模板列表](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jqmb1.png)   
+ ![集群模板列表](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.5-templateList.png)   
   
 　　**创建模板：**您可以点击“创建模板”按钮来创建模板，过程与创建临时步骤基本一致，详情可参考[集群创建](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)
 
@@ -41,7 +41,7 @@
 
 　　模板详情页面列出的模板的基本信息，您可以查看模板的基本信息、软件配置、节点配置、引导操作和作业配置情况。
   
-  ![模板详情](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/jqmb2.png)
+ ![模板详情](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.5-templateInfo.png)
   
   
 
