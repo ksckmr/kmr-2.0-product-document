@@ -10,7 +10,7 @@
 
 　　3.选择“集群管理”,点击“新建集群”按钮，进入集群创建向导
 
-　　![快速体验2](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm2.png)
+　　![快速体验2](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/1.5-3-createCluster.png)
 
 　　4.“基本信息”模块选择“临时集群”，其他项保持默认配置，点击“下一步”
 
