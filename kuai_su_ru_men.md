@@ -38,10 +38,10 @@
 
 　　12.选择“作业列表”，可以查看刚刚创建的作业状态
 
-![快速体验7](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm7.png)
+![快速体验7](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/1.5-12-jobTab.png)
 
 　　13.当作业状态变为“已完成”时，集群将会自动释放，该集群资源被回收，您已完成了KMR的快速体验。
 
-![快速体验8](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm8.png)
+![快速体验8](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/1.5-13-JobFinish.png)
 
 
