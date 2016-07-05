@@ -20,11 +20,11 @@
 
 　　7.“引导与作业设置”模块，点击“添加”按钮，选择一个示例作业 
 
-　　![快速体验3](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm3.png)
+　　![快速体验3](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/1.5-7-addJob.png)
 
 　　8.保持默认的作业配置，这里会执行一个标准的MapReduce作业，计算一套英文小说的单词数，点击“确定”关闭对话框
 
-　　![快速体验4](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm4.png)
+　　![快速体验4](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/1.5-8-job.png)
 
 　　9.点击“购买”进入支付页面，支付成功后，即会创建集群
 
