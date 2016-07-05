@@ -49,7 +49,7 @@
 
 　　计划创建完成后可以在计划列表中查看计划的基本信息，并对计划进行简单操作，计划列表会根据创建时间来排序
 
-![执行计划列表](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/zxjhlb.png)
+![执行计划列表](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.6-planList.png)
 
 
 　　**新建计划：**您可以创建执行计划，详情参考[创建执行计划](#chuang_jian_zhi_xing_ji_hua)。
