@@ -34,7 +34,7 @@
 
 　　11.在节点配置项中点击“展开/收起”可以查看集群节点的详细信息
 
-![快速体验6](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/ksrm6.png)
+![快速体验6](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/1.5-11-clusterInfo.png)
 
 　　12.选择“作业列表”，可以查看刚刚创建的作业状态
 
