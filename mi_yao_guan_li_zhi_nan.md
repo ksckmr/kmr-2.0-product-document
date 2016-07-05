@@ -44,7 +44,7 @@
 
 　　密钥创建完成后可以在密钥列表中查看密钥的基本信息，并对密钥进行简单操作，密钥列表会根据创建时间来排序
 
-![密钥列表](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/mygl2.png)
+![密钥列表](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.7-SSHlist.png)
 
 　　**创建密钥：**您可以创建密钥，详情参考[创建密钥](#chuang_jian_mi_yao)
   
@@ -76,7 +76,7 @@
 
 　　获得IP地址：打开KMR控制台，进入要访问的集群详情页面，展开主节点的详细信息，您可以通过公网（如果绑定EIP）IP地址访问集群，或者同一VPC内的云主机通过内网IP地址访问集群。
 
-![绑定EIP](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/fwjq1.png)
+![绑定EIP](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.7-ip.png)
 
 ![连接到集群](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/fwjq3.png)
 
