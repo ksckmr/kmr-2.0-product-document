@@ -54,6 +54,14 @@ KMR采用云主机（KEC）构建集群，二者服务都依托于VPC，创建�
 
   需要配置要访问的云主机对应VPC安全组的入站规则，允许KMR集群访问该云主机。
 
-   首先，从控制台进入“云服务器”，获取该云主机的VPC和安全组 ![](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/FAQ-kec.png) 从控制台进入“虚拟私有网络”，进入刚刚获取的VPC ![](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/FAQ-Vpc.png) 选中该云主机对应的安全组，创建安全组规则 ![](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/FAQ-securityGroup.png) 用户可根据需求创建不同方式的安全组规则，填写正确的KMR集群所在的网段即可。 ![](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/FAQ-groupRule.png) \* 通过非KMR集群云主机访问KMR集群 需要配置KMR集群对应VPC安全组的入站规则，允许其他云主机访问KMR集群。 首先查看KMR集群的VPC网络，然后从控制台进入“虚拟私有网络”，进入该VPC，KMR集群默认的安全组为“KSCKMR”，进入该安全组并配置安全组入站规则，填写正确的非KMR集群云主机的网段即可配置互通。 `注意： 以上配置KMR集群和其他云主机互通的前提是在同一VPC下，不同的VPC下主机互通需要先对VPC进行配置使VPC互通，再配置安全组规则。 VPC安全组规则默认出站规则全部放行，因此，可不配置出站规则，如有特殊需求，可自行更改。`
+  首先，从控制台进入“云服务器”，获取该云主机的VPC和安全组 ![](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/FAQ-kec.png) 从控制台进入“虚拟私有网络”，进入刚刚获取的VPC ![](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/FAQ-Vpc.png) 选中该云主机对应的安全组，创建安全组规则 ![](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/FAQ-securityGroup.png) 用户可根据需求创建不同方式的安全组规则，填写正确的KMR集群所在的网段即可。 ![](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/FAQ-groupRule.png)
+
+*  通过非KMR集群云主机访问KMR集群 
+
+  需要配置KMR集群对应VPC安全组的入站规则，允许其他云主机访问KMR集群。
+
+   首先查看KMR集群的VPC网络，然后从控制台进入“虚拟私有网络”，进入该VPC，KMR集群默认的安全组为“KSCKMR”，进入该安全组并配置安全组入站规则，填写正确的非KMR集群云主机的网段即可配置互通。
+
+   `注意： 以上配置KMR集群和其他云主机互通的前提是在同一VPC下，不同的VPC下主机互通需要先对VPC进行配置使VPC互通，再配置安全组规则。 VPC安全组规则默认出站规则全部放行，因此，可不配置出站规则，如有特殊需求，可自行更改。`
 
 
