@@ -15,6 +15,8 @@ KMR对Ambari对了权限控制，暂时只开放只读权限，您可以查看�
 ![](AmbariEntrance.png)
 
 输入用户名密码，均为 “kmr” 
+![](AmbariLogin.png)
+
 登录成功后，进入Ambari, Ambari Dashboard页面展示了集群的整体情况，可以点击各个图表查看具体信息
 ![](AmbariDashboard.png)
 
