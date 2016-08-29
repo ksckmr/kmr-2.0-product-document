@@ -31,6 +31,9 @@ Ambari Dashboard页面展示了集群的整体情况，可以点击各个图表�
 ![](AmbariServiceHeatmap.png)
 
 “Configes” 展示了服务的配置信息
+![](AmbariServiceConfig.png)
+
+
 
 
 点击服务详情页面的“Quick Links”可查看集群应用的原生监控工具
