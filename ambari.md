@@ -6,16 +6,16 @@ KMR对Ambari对了权限控制，暂时只开放只读权限，您可以查看�
 
 更多资料参见 [Apache Ambari](http://ambari.apache.org/) 官网
 
-
 ### 准备
 
 ---
 
-您已成功创建一个常驻集群，登录控制台，进入集群详情页面，通过管理工具进入“Ambari控制台”，用户名和密码均为“kmr"，登录成功后，即进入Ambari页面。
+您已成功创建一个常驻集群，登录控制台，进入集群详情页面，通过管理工具进入“Ambari控制台”
 
 ![](AmbariEntrance.png)
 
-Ambari Dashboard页面展示了集群的整体情况，可以点击各个图表查看具体信息
+输入用户名密码，均为 “kmr” 
+登录成功后，进入Ambari, Ambari Dashboard页面展示了集群的整体情况，可以点击各个图表查看具体信息
 ![](AmbariDashboard.png)
 
 ### 服务级别的监控管理
