@@ -36,7 +36,7 @@ Ambari Dashboard页面展示了集群的整体情况，可以点击各个图表�
 ### 机器级别的监控管理
 ---
 
-点击上方导航栏的“Hosts”按钮，可以查看Ambari所管理的机器列表
+点击上方导航栏的“Hosts”按钮，可以查看Ambari所管理的机器列表,通过输入过滤规则，可以筛选机器
 
 ![](AmbariHostList.png)
 
