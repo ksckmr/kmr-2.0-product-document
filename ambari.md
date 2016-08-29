@@ -29,6 +29,7 @@ Ambari Dashboard页面展示了集群的整体情况，可以点击各个图表�
 
 ![](AmbariService.png)
 
+![](AmbariPrimaryManage.png)
 
 ### 机器级别的监控管理
 ---
