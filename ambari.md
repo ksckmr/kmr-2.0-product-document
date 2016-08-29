@@ -2,9 +2,10 @@
 
 Apache Ambari是一种基于Web的工具，支持Hadoop集群的供应、监控和管理。Ambari支持HDFS、MapRedue、Hive、SPark、Storm、Pig、Hbase、Zookeeper等的集中管理，也是5个顶级Hadoop管理工具之一。
 
+KMR对Ambari对了权限控制，暂时只开放只读权限，您可以查看集群的监控和配置信息，不支持更改配置。
+
 更多资料参见 [Apache Ambari](http://ambari.apache.org/) 官网
 
-KMR对Ambari对了权限控制，暂时只开放只读权限，您可以查看集群的监控和配置信息，不支持更改配置。
 
 ### 准备
 
@@ -46,7 +47,6 @@ Ambari Dashboard页面展示了集群的整体情况，可以点击各个图表�
 
 ![](AmbariHostList.png)
 
-
 点击进入具体的机器，查看机器详情，对该机器的服务角色进行监控管理，可查看配置，警告和版本信息。
 
 ![](AmbariHost.png)
@@ -56,8 +56,6 @@ Ambari Dashboard页面展示了集群的整体情况，可以点击各个图表�
 ---
 
 警告管理展示了集群的全部监控项，请注意查看 “WARNING” 和 “CRITICAL” 状态的警告项
- 
+
 ![](AmbariAlert.png)
-
-
 
