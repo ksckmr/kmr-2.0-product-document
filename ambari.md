@@ -55,5 +55,5 @@ Ambari Dashboard页面展示了集群的整体情况，可以点击各个图表�
 
 ---
 
-警告管理展示了集群的全部监控项，请注意 “WARNING” 和 “CRITICAL” 状态的警告项
+警告管理展示了集群的全部监控项，请注意查看 “WARNING” 和 “CRITICAL” 状态的警告项
  
