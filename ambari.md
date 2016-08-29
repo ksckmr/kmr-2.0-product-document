@@ -17,7 +17,7 @@
 ![](AmbariEntrance.png)
 
 
-Ambari Dashboard页面
+Ambari Dashboard页面展示了集群的整体情况，可以点击各个图表查看具体信息
 ![](AmbariDashboard.png)
 
 
