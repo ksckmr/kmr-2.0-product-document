@@ -54,3 +54,7 @@ Ambari Dashboard页面展示了集群的整体情况，可以点击各个图表�
 ![](AmbariHost.png)
 
 
+### 警告管理
+
+---
+
