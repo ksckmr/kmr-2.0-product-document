@@ -6,5 +6,10 @@
 
 　　更多资料参见 [Apache Ambari](http://ambari.apache.org/) 官网
 
+　　KMR对Ambari对了权限控制，暂时只开放查看集群运行情况权限，不支持更改配置。
+
+
+### 前提条件
+---
 
 
