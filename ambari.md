@@ -40,6 +40,9 @@ Ambari Dashboard页面展示了集群的整体情况，可以点击各个图表�
 
 ![](AmbariHostList.png)
 
+进入具体的机器，查看机器详情
+
+![](AmbariHost.png)
 
 
 
