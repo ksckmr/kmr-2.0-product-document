@@ -31,7 +31,7 @@ Ambari Dashboard页面展示了集群的整体情况，可以点击各个图表�
 
 ![](AmbariServiceHeatmap.png)
 
-“Configes” 展示了服务的配置信息
+“Configs” 展示了服务的配置信息
 
 ![](AmbariServiceConfig.png)
 
