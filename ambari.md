@@ -17,7 +17,7 @@
 ![](AmbariEntrance.png)
 
 
-
+Ambari Dashboard页面
 ![](AmbariDashboard.png)
 
 
