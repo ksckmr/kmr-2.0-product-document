@@ -24,7 +24,7 @@ Ambari Dashboard页面
 ### 服务级别的监控管理
 ---
 
-服务级别包括
+服务级别监控管理包括对HDFS,MapReduce，Storm,Spark等的管理，
 
 ### 机器级别的监控管理
 ---
