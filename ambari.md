@@ -21,9 +21,14 @@ Ambari Dashboard页面展示了集群的整体情况，可以点击各个图表�
 
 ---
 
-服务级别监控管理包括对HDFS,MapReduce，Storm,Spark等的管理，通过左边导航点击对应的服务，可以查看该服务的概况和使用图表，也可以通过 “+” 选择需要显示的指标
+服务级别监控管理包括对HDFS,MapReduce，Storm,Spark等的管理，通过左边导航点击对应的服务，可以查看该服务的使用情况。
 
-![](AmbariService.png)
+“Summary” 展示了服务的基本情况和使用图标，也可以通过 “+” 选择需要显示的指标
+
+![](AmbariServiceSummary.png)
+
+“Heatmaps” 展示了服务各个角色使用磁盘IO、网卡IO、CPU以及JVM等性能状况
+![](AmbariServiceHeatmap.png)
 
 点击服务详情页面的“Quick Links”可查看集群应用的原生监控工具
 ![](AmbariPrimaryManage.png)
