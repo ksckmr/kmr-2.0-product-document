@@ -235,7 +235,7 @@ Content-Length: xxx
  
 * **请求参数**
 
-　　关于所有操作使用的通用参数信息，请参考通用请求 "[公共参数](tong_yong_qing_qiu.md#gong_gong_can_shu)"部分
+　　关于所有操作使用的通用参数信息，请参考通用请求 "[公共参数](GeneralRequest.md#gong_gong_can_shu)"部分
   
 　　**Distribution**
   
@@ -359,7 +359,7 @@ Content-Length: xxx
 
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考通用请求"[通用错误信息](tong_yong_qing_qiu.md#tong_yong_cuo_wu_xin_xi)"部分
+　　关于所有操作使用的通用错误信息，参考通用请求"[通用错误信息](GeneralRequest.md#tong_yong_cuo_wu_xin_xi)"部分
 
 
 　　**InternalServerError**
@@ -443,7 +443,7 @@ Content-Length: xxx
  
 * **请求参数**
 
-　　关于所有操作使用的通用参数信息，请参考通用请求 "[公共参数](tong_yong_qing_qiu.md#gong_gong_can_shu)"部分
+　　关于所有操作使用的通用参数信息，请参考通用请求 "[公共参数](GeneralRequest.md#gong_gong_can_shu)"部分
   
 　　**ClusterIds.member.N**
   
@@ -458,7 +458,7 @@ Content-Length: xxx
 
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考通用请求 "[通用错误信息](tong_yong_qing_qiu.md#tong_yong_cuo_wu_xin_xi)"部分
+　　关于所有操作使用的通用错误信息，参考通用请求 "[通用错误信息](GeneralRequest.md#tong_yong_cuo_wu_xin_xi)"部分
 
 
 　　**InternalServerError**
@@ -513,7 +513,7 @@ Content-Length: 2
  
 * **请求参数**
 
-　　关于所有操作使用的通用参数信息，请参考通用请求 "[公共参数](tong_yong_qing_qiu.md#gong_gong_can_shu)"部分
+　　关于所有操作使用的通用参数信息，请参考通用请求 "[公共参数](GeneralRequest.md#gong_gong_can_shu)"部分
   
 　　**ClusterIds.member.N**
   
@@ -534,7 +534,7 @@ Content-Length: 2
 
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考通用请求 "[通用错误信息](tong_yong_qing_qiu.md#tong_yong_cuo_wu_xin_xi)"部分
+　　关于所有操作使用的通用错误信息，参考通用请求 "[通用错误信息](GeneralRequest.md#tong_yong_cuo_wu_xin_xi)"部分
 
 
 　　**InternalServerError**
@@ -585,7 +585,7 @@ Content-Length: 2
  
 * **请求参数**
 
-　　关于所有操作使用的通用参数信息，请参考通用请求 "[公共参数](tong_yong_qing_qiu.md#gong_gong_can_shu)"部分
+　　关于所有操作使用的通用参数信息，请参考通用请求 "[公共参数](GeneralRequest.md#gong_gong_can_shu)"部分
   
 　　**ClusterId**
   
@@ -615,7 +615,7 @@ Content-Length: 2
 
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考通用请求 "[通用错误信息](tong_yong_qing_qiu.md#tong_yong_cuo_wu_xin_xi)"部分
+　　关于所有操作使用的通用错误信息，参考通用请求 "[通用错误信息](GeneralRequest.md#tong_yong_cuo_wu_xin_xi)"部分
 
 
 　　**InternalServerError**
@@ -692,7 +692,7 @@ Date: Thu, 07 Jan 2016 02:57:57 GMT
  
 * **请求参数**
 
-　　关于所有操作使用的通用参数信息，请参考通用请求 "[公共参数](tong_yong_qing_qiu.md#gong_gong_can_shu)"部分
+　　关于所有操作使用的通用参数信息，请参考通用请求 "[公共参数](GeneralRequest.md#gong_gong_can_shu)"部分
   
 　　**ClusterId**
   
@@ -717,7 +717,7 @@ Date: Thu, 07 Jan 2016 02:57:57 GMT
     
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考通用请求 "[通用错误信息](tong_yong_qing_qiu.md#tong_yong_cuo_wu_xin_xi)"部分
+　　关于所有操作使用的通用错误信息，参考通用请求 "[通用错误信息](GeneralRequest.md#tong_yong_cuo_wu_xin_xi)"部分
 
 
 　　**InternalServerError**
@@ -778,7 +778,7 @@ Content-Length: 2
  
 * **请求参数**
 
-　　关于所有操作使用的通用参数信息，请参考通用请求 "[公共参数](tong_yong_qing_qiu.md#gong_gong_can_shu)"部分
+　　关于所有操作使用的通用参数信息，请参考通用请求 "[公共参数](GeneralRequest.md#gong_gong_can_shu)"部分
   
 　　**ClusterId**
   
@@ -798,7 +798,7 @@ Content-Length: 2
 
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考通用请求 "[通用错误信息](tong_yong_qing_qiu.md#tong_yong_cuo_wu_xin_xi)"部分
+　　关于所有操作使用的通用错误信息，参考通用请求 "[通用错误信息](GeneralRequest.md#tong_yong_cuo_wu_xin_xi)"部分
 
 
 　　**InternalServerError**
@@ -857,7 +857,7 @@ Content-Length: 2
  
 * **请求参数**
 
-　　关于所有操作使用的通用参数信息，请参考[通用请求](tong_yong_qing_qiu.md) "公共参数"部分
+　　关于所有操作使用的通用参数信息，请参考[通用请求](GeneralRequest.md) "公共参数"部分
   
 　　**ClusterId**
   
@@ -899,7 +899,7 @@ Content-Length: 2
 
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考通用请求 "[通用错误信息](tong_yong_qing_qiu.md#tong_yong_cuo_wu_xin_xi)"部分
+　　关于所有操作使用的通用错误信息，参考通用请求 "[通用错误信息](GeneralRequest.md#tong_yong_cuo_wu_xin_xi)"部分
 
 
 　　**InternalServerError**
@@ -968,7 +968,7 @@ Date: Thu, 07 Jan 2016 02:57:57 GMT
  
 * **请求参数**
 
-　　关于所有操作使用的通用参数信息，请参考通用请求 "[公共参数](tong_yong_qing_qiu.md#gong_gong_can_shu)"部分
+　　关于所有操作使用的通用参数信息，请参考通用请求 "[公共参数](GeneralRequest.md#gong_gong_can_shu)"部分
 
     
 * **返回参数**
@@ -982,7 +982,7 @@ Date: Thu, 07 Jan 2016 02:57:57 GMT
 
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考通用请求 "[通用错误信息](tong_yong_qing_qiu.md#tong_yong_cuo_wu_xin_xi)"部分
+　　关于所有操作使用的通用错误信息，参考通用请求 "[通用错误信息](GeneralRequest.md#tong_yong_cuo_wu_xin_xi)"部分
 
 
 　　**InternalServerError**
