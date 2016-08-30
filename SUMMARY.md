@@ -31,7 +31,7 @@
 * [API参考手册](APImanual.md)
     * [通用请求](GeneralRequest.md)
     * [集群操作请求](ClusterOperationRequest.md)
-    * [作业操作请求](ClusterOperationRequest.md)
+    * [作业操作请求](StepOperationRequest.md)
     * [数据类型](DataType.md)
 * [SDK使用手册](SDKmanual.md)
 
