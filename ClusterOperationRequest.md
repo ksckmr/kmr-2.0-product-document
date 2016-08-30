@@ -147,7 +147,7 @@ Content-Length: xxx
  
 * **请求参数**
 
-　　关于所有操作使用的通用参数信息，请参考通用请求 "[公共参数](tong_yong_qing_qiu.md#gong_gong_can_shu)"部分
+　　关于所有操作使用的通用参数信息，请参考通用请求 "[公共参数](GeneralRequest.md#gong_gong_can_shu)"部分
   
 　　**ClusterId**
   
