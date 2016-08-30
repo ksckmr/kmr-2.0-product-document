@@ -4,7 +4,7 @@
 
 　　KMR对Ambari对了权限控制，暂时只开放只读权限，您可以查看集群的监控和配置信息，不支持更改配置。
 
-更多资料参见 [Apache Ambari](http://ambari.apache.org/) 官网
+　　更多资料参见 [Apache Ambari](http://ambari.apache.org/) 官网
 
 ### 准备
 
