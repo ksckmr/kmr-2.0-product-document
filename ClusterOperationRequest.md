@@ -67,7 +67,7 @@
 　　**Clusters**
   
 　　　　当前账户满足请求中给出的过滤条件的集群列表<br>
-　　　　类型：ClusterSummary列表 [ClusterSummary](shu_ju_lei_xing.md#ClusterSummary)
+　　　　类型：ClusterSummary列表 [ClusterSummary](DataType.md#ClusterSummary)
     
 　　**Marker**
   
