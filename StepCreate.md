@@ -108,7 +108,7 @@
 
 　　Pig 是一种开源 Apache 库，在 Hadoop 的顶层上运行。该库使用名为 Pig Latin 的语言编写的、类似 SQL的命令，并将这些命令转换到 MapReduce 任务中。KMR支持 Apache Pig，此编程框架可用于分析和转换大型数据集。有关 Pig 的详细信息，请转到 http://pig.apache.org/
   
-　　1.在KMR集群创建时或者创建完成后打开添加作业页面，前置步骤请参考[集群创建](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)和集群操作中的[作业详情](ji_qun_cao_zuo_zhi_nan.md#zuo_ye_xiang_qing)部分
+　　1.在KMR集群创建时或者创建完成后打开添加作业页面，前置步骤请参考[集群创建](ClusterCreate.md)和集群操作中的[作业详情](ClusterOperation.md#zuo_ye_xiang_qing)部分
 　　
   
 ![pig](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.3-pig.png)
