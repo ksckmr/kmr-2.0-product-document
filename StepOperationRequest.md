@@ -54,7 +54,7 @@
 　　**Steps**
   
 　　　　满足请求中给出的过滤条件的作业列表。<br>
-　　　　类型：Step列表 [Step](shu_ju_lei_xing.md#Step)
+　　　　类型：Step列表 [Step](DataType.md#Step)
     
 　　**Marker**
   
@@ -169,7 +169,7 @@ Content-Length: xxx
 　　**Step**
   
 　　　　需要查询作业的详细信息。<br>
-　　　　类型：Step [Step](shu_ju_lei_xing.md#Step)
+　　　　类型：Step [Step](DataType.md#Step)
     
 * **错误信息**
 
@@ -263,7 +263,7 @@ Content-Length: 2
 　　**Steps.member.N**
   
 　　　　需要添加的自定义作业列表。<br>
-　　　　类型：StepConfig 列表 [StepConfig](shu_ju_lei_xing.md#StepConfig)<br>
+　　　　类型：StepConfig 列表 [StepConfig](DataType.md#StepConfig)<br>
 　　　　是否必须：是　
     
 * **返回参数**
