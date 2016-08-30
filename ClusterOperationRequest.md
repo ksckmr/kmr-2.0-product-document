@@ -76,7 +76,7 @@
     
 * **错误信息**
 
-　　关于所有操作使用的通用错误信息，参考通用请求 "[通用错误信息](tong_yong_qing_qiu.md#tong_yong_cuo_wu_xin_xi)"部分
+　　关于所有操作使用的通用错误信息，参考通用请求 "[通用错误信息](GeneralRequest.md#tong_yong_cuo_wu_xin_xi)"部分
 
   
 　　**InternalServerError**
