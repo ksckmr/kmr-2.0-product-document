@@ -162,7 +162,7 @@ Content-Length: xxx
 　　**Cluster**
   
 　　　　请求中集群的详细信息<br>
-　　　　类型：ClusterConfig  [ClusterConfig](shu_ju_lei_xing.md#ClusterConfig) 
+　　　　类型：ClusterConfig  [ClusterConfig](DataType.md#ClusterConfig) 
 
 * **错误信息**
 
@@ -253,7 +253,7 @@ Content-Length: xxx
 　　**InstanceGroups.member.N**
   
 　　　　集群里虚机的配置和数目信息。<br>
-　　　　类型：InstanceGroupConfig列表   [InstanceGroupConfig](shu_ju_lei_xing.md#InstanceGroupConfig)<br>
+　　　　类型：InstanceGroupConfig列表   [InstanceGroupConfig](DataType.md#InstanceGroupConfig)<br>
 　　　　是否必须：是
    
 　　**IsTransient**
@@ -327,7 +327,7 @@ Content-Length: xxx
 　　**Steps.member.N**
   
 　　　　自定义需要运行的作业列表。(常驻集群暂不支持)<br>
-　　　　类型：StepConfig列表 [StepConfig](shu_ju_lei_xing.md#StepConfig)<br>
+　　　　类型：StepConfig列表 [StepConfig](DataType.md#StepConfig)<br>
 　　　　是否必须：否
     
 　　**EnableEIP**
@@ -339,13 +339,13 @@ Content-Length: xxx
 　　**Configurations.member.N**
   
 　　　　所创建集群的配置信息。<br>
-　　　　类型：Configuration列表 [Configuration](shu_ju_lei_xing.md#Configuration)<br>
+　　　　类型：Configuration列表 [Configuration](DataType.md#Configuration)<br>
 　　　　是否必须：否
     
 　　**BootstrapActions.member.N**
   
 　　　　集群引导操作列表<br>
-　　　　类型：BootstrapAction列表 [BootstrapAction](shu_ju_lei_xing.md#BootstrapAction)<br>
+　　　　类型：BootstrapAction列表 [BootstrapAction](DataType.md#BootstrapAction)<br>
 　　　　是否必须：否
     　　
 * **返回参数**
@@ -606,7 +606,7 @@ Content-Length: 2
 　　**InstanceGroups**
   
 　　　　基于给定过滤条件返回指定集群的实例组列表<br>
-　　　　类型：InstanceGroup 列表  [InstanceGroup](shu_ju_lei_xing.md#InstanceGroup)
+　　　　类型：InstanceGroup 列表  [InstanceGroup](DataType.md#InstanceGroup)
 
 　　**Marker**
   
@@ -703,7 +703,7 @@ Date: Thu, 07 Jan 2016 02:57:57 GMT
 　　**InstanceGroups**
   
 　　　　需要添加的InstanceGroup配置列表<br>
-　　　　类型：InstanceGroupConfig列表  [InstanceGroupConfig](shu_ju_lei_xing.md#InstanceGroupConfig)<br>
+　　　　类型：InstanceGroupConfig列表  [InstanceGroupConfig](DataType.md#InstanceGroupConfig)<br>
 　　　　是否必须：是
     　　
 * **返回参数**
@@ -789,7 +789,7 @@ Content-Length: 2
 　　**InstanceGroups**
     
 　　　　InstanceGroup类型列表。<br>
-　　　　类型：InstanceGroupConfig列表  [InstanceGroupConfig](shu_ju_lei_xing.md#InstanceGroupConfig)<br>
+　　　　类型：InstanceGroupConfig列表  [InstanceGroupConfig](DataType.md#InstanceGroupConfig)<br>
 　　　　是否必须：是
     
 * **返回参数**
@@ -890,7 +890,7 @@ Content-Length: 2
 　　**Instances**
   
 　　　　Instance结果<br>
-　　　　类型：Instance列表 [Instance](shu_ju_lei_xing.md#Instance)
+　　　　类型：Instance列表 [Instance](DataType.md#Instance)
     
 　　**Marker**
   
@@ -978,7 +978,7 @@ Date: Thu, 07 Jan 2016 02:57:57 GMT
 　　**Distributions**
   
 　　　　发行版列表<br>
-　　　　类型：Distribution列表 [Distribution](shu_ju_lei_xing.md#Distribution)
+　　　　类型：Distribution列表 [Distribution](DataType.md#Distribution)
 
 * **错误信息**
 
