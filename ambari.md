@@ -14,42 +14,42 @@
 
 ![](AmbariEntrance.png)
 
-输入用户名密码，均为 “kmr” 
+　　输入用户名密码，均为 “kmr” 
 ![](AmbariLogin.png)
 
-登录成功后，进入Ambari, Ambari Dashboard页面展示了集群的整体情况，可以点击各个图表查看具体信息
+　　登录成功后，进入Ambari, Ambari Dashboard页面展示了集群的整体情况，可以点击各个图表查看具体信息
 ![](AmbariDashboard.png)
 
 ### 服务级别的监控管理
 
 ---
 
-服务级别监控管理包括对HDFS,MapReduce，Storm,Spark等的管理，通过左边导航点击对应的服务，可以查看该服务的使用情况。
+　　服务级别监控管理包括对HDFS,MapReduce，Storm,Spark等的管理，通过左边导航点击对应的服务，可以查看该服务的使用情况。
 
-“Summary” 展示了服务的基本情况和使用图标，也可以通过 “+” 选择需要显示的指标
+　　“Summary” 展示了服务的基本情况和使用图标，也可以通过 “+” 选择需要显示的指标
 
 ![](AmbariServiceSummary.png)
 
-“Heatmaps” 展示了服务各个角色使用磁盘IO、网卡IO、CPU以及JVM等性能状况
+　　“Heatmaps” 展示了服务各个角色使用磁盘IO、网卡IO、CPU以及JVM等性能状况
 
 ![](AmbariServiceHeatmap.png)
 
-“Configs” 展示了服务的配置信息
+　　“Configs” 展示了服务的配置信息
 
 ![](AmbariServiceConfig.png)
 
-点击服务详情页面的“Quick Links”可查看集群应用的原生监控工具
+　　点击服务详情页面的“Quick Links”可查看集群应用的原生监控工具
 ![](AmbariPrimaryManage.png)
 
 ### 机器级别的监控管理
 
 ---
 
-点击上方导航栏的“Hosts”按钮，可以查看Ambari所管理的机器列表,通过输入过滤规则，可以筛选机器。
+　　点击上方导航栏的“Hosts”按钮，可以查看Ambari所管理的机器列表,通过输入过滤规则，可以筛选机器。
 
 ![](AmbariHostList.png)
 
-点击进入具体的机器，查看机器详情，对该机器的服务角色进行监控管理，可查看配置，警告和版本信息。
+　　点击进入具体的机器，查看机器详情，对该机器的服务角色进行监控管理，可查看配置，警告和版本信息。
 
 ![](AmbariHost.png)
 
@@ -57,7 +57,7 @@
 
 ---
 
-警告管理展示了集群的全部监控项，请注意查看 “WARNING” 和 “CRITICAL” 状态的警告项
+　　警告管理展示了集群的全部监控项，请注意查看 “WARNING” 和 “CRITICAL” 状态的警告项
 
 ![](AmbariAlert.png)
 
