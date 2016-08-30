@@ -4,7 +4,7 @@
 
 　　KMR的某些功能依赖于KS3，在创建集群之前，请确认您已经开通KMR和KS3服务，并已经创建AccessKey/SecretKey ，参阅KS3官方文档 [创建密钥](http://ks3.ksyun.com/doc/console/key/create.html)
 
-　　如需使用KS3存放原始数据，参阅 [数据导入](shu_ju_dao_ru_zhi_nan.md)
+　　如需使用KS3存放原始数据，参阅 [数据导入](DataImport.md)
   
 　　KMR提供了临时集群和常驻集群两种类型，临时集群在作业执行完毕后会自动释放，适合批量数据计算；常驻集群提供了更高的可用性，集成了更丰富的Hadoop生态组件，适合流计算、实时数据查询或者较为复杂的数据分析场景。不同类型集群的创建步骤略有不同
   
