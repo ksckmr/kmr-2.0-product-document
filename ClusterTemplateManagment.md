@@ -22,7 +22,7 @@
   
  ![集群模板列表](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.5-templateList.png)   
   
-　　**创建模板：**您可以点击“创建模板”按钮来创建模板，过程与创建临时步骤基本一致，详情可参考[集群创建](chuang_jian_ji_qun_kuai_su_xuan_xiang.md)
+　　**创建模板：**您可以点击“创建模板”按钮来创建模板，过程与创建临时步骤基本一致，详情可参考[集群创建](ClusterCreate.md)
 
 　　**删除：**您可以在左侧勾选多个集群，然后点击“删除”来批量删除模板，也可以通过集群列表末尾的“删除”超链接删除模板
   
