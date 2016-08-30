@@ -44,7 +44,7 @@
 ![集群详情](http://kmr-bj.ks3-cn-beijing.ksyun.com/doc_pic/KMR2.0/2.4-clusterInfo.png)
 
 
-　　**SSH KEY绑定：**为集群绑定SSH密钥，请参考[SSH密钥管理](mi_yao_guan_li_zhi_nan.md)中的"使用SSH访问集群”部分
+　　**SSH KEY绑定：**为集群绑定SSH密钥，请参考[SSH密钥管理](SSHKeyManagement.md)中的"使用SSH访问集群”部分
   
 　　**变更配置：**您可以根据需求来增加或者减少核心节点和任务节点的数量。<br>
 　　*注意：包年包月集群仅支持扩容，不支持缩容，在变更核心节点时，尤其是减少核心节点的操作在某些极特殊情况下可能会导致HDFS文件系统数据不可用，请您操作前注意，或咨询技术支持。*
